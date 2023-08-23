@@ -1,0 +1,95 @@
+[
+    {
+        "id": "VinexVino",
+        "title": "VinexVino",
+        "tagline": "My inaugural full-stack endeavor: an online wine repository seamlessly integrated with MySQL",
+        "description": "Laravel-Powered Online Winery with MySQL Integration\n -A virtual haven for wine enthusiasts, housing an extensive selection of wines and curated wine bars.\n-User-Centric Experience: Upon registration, users access an immersive wine world, effortlessly modifying their content via an intuitive interface.\n-Password Recovery: A sophisticated system ensures uninterrupted access, aiding users in unforeseen situations.\n-Seamless Deletion: Users easily remove content misaligned with evolving tastes, ensuring a tidy experience.",
+        "technologies": ["Laravel", "Bootstrap","mySQL"],
+        "image": "/img/Vinexvino.png",
+        "links": [
+            {
+                "url": "",
+                "name": "",
+                "icon": "",
+                "ariaLink": ""
+            },
+            {
+                "url": "https://www.figma.com/file/QWaSxHubvbKVigRqX1gLAl/Pokedex?type=design&node-id=0%3A1&mode=design&t=lpsilPnaVh3cclMv-1",
+                "name": "Figma",
+                "icon": "figma",
+                "ariaLink": "Link that drives to figma"
+            },
+            {
+                "url": "https://pokedex1991.netlify.app/",
+                "name": "Go to site",
+                "icon": "leave-to",
+                "ariaLink": "Link that drives to https://pokedex1991.netlify.app/"
+            }
+        ],
+        "year": "2023",
+        "role": "Web designer, developer and project owner",
+        "projectUrl": "/project/pokedex"
+    },
+    {
+        "id": "Borcele",
+        "title": "Borcele",
+        "tagline": "Elevating online shopping experiences, I crafted an alluring e-commerce platform for exquisite jewelry, seamlessly fusing stunning design with effortless navigation, ensuring every click brings you closer to the allure of precious gems. ",
+        "description": "Descripcion",
+        "technologies": ["Laravel", "Bootstrap"],
+        "image": "/img/1.png",
+        "links": [
+            {
+                "url": "https://github.com/agimenez91/pokedex.git",
+                "name": "GitHub",
+                "icon": "github",
+                "ariaLink": "Link that drives to github"
+            },
+            {
+                "url": "https://www.figma.com/file/QWaSxHubvbKVigRqX1gLAl/Pokedex?type=design&node-id=0%3A1&mode=design&t=lpsilPnaVh3cclMv-1",
+                "name": "Figma",
+                "icon": "figma",
+                "ariaLink": "Link that drives to figma"
+            },
+            {
+                "url": "https://pokedex1991.netlify.app/",
+                "name": "Go to site",
+                "icon": "leave-to",
+                "ariaLink": "Link that drives to https://pokedex1991.netlify.app/"
+            }
+        ],
+        "year": "2023",
+        "role": "Web designer, developer and project owner",
+        "projectUrl": "/project/pokedex"
+    },
+    {
+        "id": "Python Project",
+        "title": "Python Project",
+        "tagline": "Python Project ",
+        "description": "Python Project",
+        "technologies": ["Python", "Bootstrap"],
+        "image": "/img/2.png",
+        "links": [
+            {
+                "url": "https://github.com/agimenez91/pokedex.git",
+                "name": "GitHub",
+                "icon": "github",
+                "ariaLink": "Link that drives to github"
+            },
+            {
+                "url": "https://www.figma.com/file/QWaSxHubvbKVigRqX1gLAl/Pokedex?type=design&node-id=0%3A1&mode=design&t=lpsilPnaVh3cclMv-1",
+                "name": "Figma",
+                "icon": "figma",
+                "ariaLink": "Link that drives to figma"
+            },
+            {
+                "url": "https://pokedex1991.netlify.app/",
+                "name": "Go to site",
+                "icon": "leave-to",
+                "ariaLink": "Link that drives to https://pokedex1991.netlify.app/"
+            }
+        ],
+        "year": "2023",
+        "role": "Web designer, developer and project owner",
+        "projectUrl": "/project/pokedex"
+    }
+]
