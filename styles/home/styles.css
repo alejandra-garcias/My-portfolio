@@ -1,3 +1,12 @@
+body {
+  font-family: 'Heming Variable', sans-serif;
+}
+
+h1,p {
+  font-family: 'Helvetica Light Regular', sans-serif;
+  color:#222222;
+}
+
 body::-webkit-scrollbar {
     display: none !important;
   }
@@ -45,23 +54,31 @@ body::-webkit-scrollbar {
 }
 .circulo {
     position: absolute;
-    background-color: #a7b9f9;
-    background-image: linear-gradient(45deg, #a7b9f9 0%, #bdbbfa 22%, #f3cb82 49%, #f8f9fa 75%);
+    background-color: #a7b9f98a;
+    background-image: linear-gradient(45deg, #a7b9f9b3 0%, #bdbbfaa3 22%, #f3cb82ac 49%, #f8f9fa9a 75%);
     
     border-radius: 50%;
     z-index: 1000000;
     transition: all ease 0.4s;
     
 }
-.wavyline {
-    display: block;
-    position: absolute;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: auto;
-    left: 0;
-    width: 100%;
-    bottom: -0.55em;
-    mix-blend-mode: multiply;
-  }
+.icon{
+  width: 2.18rem;
+  height: 2.18rem;
+  position: absolute;
+  right: 1.56rem;
+  top: 0.6rem;
+  z-index: 10000000000000000;
+}
+
+
+.barrita{
+  width: 1.8rem;
+  height: 0.2rem;
+  margin-top: 0.56rem;
+  margin-left: 0.62rem;
+  background-color: #222222;
+  transition: all ease 0.5s;
+  
+}
 

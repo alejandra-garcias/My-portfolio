@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import '../styles/home/styles.css'
 
-function Card({ title, img, }) {
+function Card({ title, img,tagline, technologies,projectUrl}) {
     return (
         <article className='card'>
             
@@ -14,7 +14,8 @@ function Card({ title, img, }) {
             />
             <div className='contenedor'>
                 <h1 className='title'>{title}</h1>
-                <h3 className= 'title'>{}</h3>
+                <small className= 'title'>{tagline}</small>
+                
             </div>
         </article>
     )

@@ -46,8 +46,11 @@ export default function Home() {
             return(
               <Card
                 title={p.title}
+                tagline={p.tagline}
                 img={p.image}
                 key={p.id}
+                technologies={p.technologies}
+                projectUrl={p.projectUrl}
               />
             )
           })
