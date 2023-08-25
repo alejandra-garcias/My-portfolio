@@ -1,8 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
 import '../styles/home/styles.css'
+import Button from'../component/Button/Button'
 
-function Card({ title, img,tagline, technologies,projectUrl}) {
+function Card({ title, img,tagline, projectUrl}) {
     return (
         <article className='card'>
             
@@ -13,11 +14,12 @@ function Card({ title, img,tagline, technologies,projectUrl}) {
                 alt="Picture of the author"
             />
             <div className='contenedor'>
+
                 <h1 className='title'>{title}</h1>
-                <small className= 'title'>{tagline}</small>
-                
-                
+                <small className= 'title'>{tagline}</small>   
             </div>
+
+                
         </article>
     )
 }

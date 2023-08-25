@@ -36,6 +36,9 @@ export default function Home() {
           <p>Passionately crafting Python-powered solutions and building full-stack experiences that meld innovation with functionality.</p>
         </article>
       </section>
+      <section className="projectstitle">
+        <h2>Projects</h2>
+      </section>
       <section className="projects">
         {
           projects.map((p) => {

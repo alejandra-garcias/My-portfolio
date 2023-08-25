@@ -65,17 +65,17 @@ export default function nav() {
       
         <div className='navmenu' style={{ position: navmenuZIndex, opacity: show ? 1 : 0 }}>
         <ul>
-      <li>
+      <li onClick={() => hacerPequenio()}>
       <Link href="./">
           Home
         </Link>
       </li>
-      <li>
+      <li onClick={() => hacerPequenio()}>
       <Link href="./about">
           About
         </Link>
       </li>
-      <li>
+      <li onClick={() => hacerPequenio()}>
       <Link href="./contact">
           Contact
         </Link>

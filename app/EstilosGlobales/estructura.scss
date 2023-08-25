@@ -1,0 +1,88 @@
+@import "/EstilosGlobales/Herramientas";
+
+.col3 {
+    display: flex;
+    flex-wrap: wrap;
+
+
+    &--item {
+        width: 100%;
+
+        @include MQ($tablet) {
+            width: 50%;
+        }
+
+        @include MQ($desktop) {
+            width: 33.3333%;
+        }
+    }
+}
+
+
+.flex {
+    
+    &--row {
+    display: flex;
+    gap: 1.6rem;
+    flex-wrap: wrap;
+
+        @include MQ ($tablet) {
+            gap: 2.6rem;
+        }
+    }
+
+    &--column {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+}
+
+.contact {
+    @include paddingX();
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 2.6rem;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+
+    @media screen and ( min-height: 700px ) {
+        height: 100vh;   
+    }
+
+    @include MQ ($tablet) {
+        height: 100vh;
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+
+        @media screen and ( max-height: 600px ) {
+            padding-top: 7rem;
+            padding-bottom: 7rem;
+            height: inherit;
+        }
+    } 
+
+
+}
+
+.legal {
+    @include paddingX();
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+
+    @include MQ ($tablet) {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+
+}
+
+.content-centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
