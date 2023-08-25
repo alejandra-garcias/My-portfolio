@@ -8,13 +8,14 @@ function Card({ title, img,tagline, technologies,projectUrl}) {
             
             <Image
                 src={img}
-                width={500}
-                height={250}
+                width={2500}
+                height={500}
                 alt="Picture of the author"
             />
             <div className='contenedor'>
                 <h1 className='title'>{title}</h1>
                 <small className= 'title'>{tagline}</small>
+                
                 
             </div>
         </article>

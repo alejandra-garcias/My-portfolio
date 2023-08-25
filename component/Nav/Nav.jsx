@@ -1,3 +1,4 @@
+"use client"
 import React, { useState } from "react"
 import './Nav.css'
 import Link from 'next/link';
@@ -8,7 +9,7 @@ export default function nav() {
   const [position, setPosition] = useState("-50px")
   const [colors, setColors] = useState("linear-gradient(45deg, #a7b9f9 0%, #bdbbfa 22%, #f3cb82 49%, #f8f9fa 75%")
   const [show, setshow]= useState(false)
-  const [navmenuZIndex, setNavmenuZIndex] = useState(-3);
+  const [navmenuZIndex, setNavmenuZIndex] = useState('absolute');
 
 
   
@@ -16,13 +17,13 @@ export default function nav() {
     settamaño("200vw")
     setPosition("-500px")
     setshow(true)
-    setNavmenuZIndex(10000000)
+    setNavmenuZIndex('fixed')
   }
   const hacerPequenio = () => {
     settamaño("10vw")
     setPosition("-50px")
     setshow(false)
-    setNavmenuZIndex(-3)
+    setNavmenuZIndex('absolute')
   }
   const onPress= () => {
     if(show==false){
@@ -62,20 +63,20 @@ export default function nav() {
       </div>
 
       
-        <div className='navmenu' style={{ zIndex: navmenuZIndex }}>
+        <div className='navmenu' style={{ position: navmenuZIndex, opacity: show ? 1 : 0 }}>
         <ul>
       <li>
-        <Link href="./Views/HomeProjects">
+      <Link href="./">
           Home
         </Link>
       </li>
       <li>
-        <Link href="./Views/About">
+      <Link href="./about">
           About
         </Link>
       </li>
       <li>
-        <Link href="./Views/Contact">
+      <Link href="./contact">
           Contact
         </Link>
       </li>
