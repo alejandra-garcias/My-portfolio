@@ -96,11 +96,7 @@ body::-webkit-scrollbar {
 
 
 }
-.gradiant{
-  background-image: linear-gradient(to bottom, #7928caad, #ae00a2a8, #c8007bad, #d000538e, #cb07319b);
-  background-color: red;
-  
-}
+
 /*Animaciones*/
 
 @keyframes moveUpDown {

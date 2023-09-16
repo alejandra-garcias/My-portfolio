@@ -7,7 +7,6 @@ import React, { useState, useEffect } from "react";
 import projectsJson from "../projects.json";
 import Card from "../component/Card";
 import Technologies from '../component/Tecnologias/Tecnologias'
-import{FaBeer} from "react-icons/fa"
 
 
 export default function Home() {
@@ -173,6 +172,7 @@ export default function Home() {
             </ul>
           </div>
         </div>
+        <Technologies/>
       </section>
       <div id="certificates" className="container-grisaceo">
         <section className="container">
@@ -242,11 +242,6 @@ export default function Home() {
           <button className="button">Download my CV here</button>
         </div>
       </section>
-      <Technologies/>
-      <FaBeer classname="gradiant"/>
-      <Image src={"/img/Python.svg"} 
-       width={64}
-       height={64}alt=''/>
     </main>
   );
 }
