@@ -23,13 +23,45 @@ body::-webkit-scrollbar {
   font-weight: bold;
 }
 .presentation {
-    height: 83vh;
+    height: 100vh;
     width: 100vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    position: relative;
 }
-
+.bubbles{
+  position:absolute;
+  width: 100px;
+  height: 100px;
+  animation: moveUpDown 2s infinite ease;
+  
+}
+.bubbles span{
+  background-image: linear-gradient(to bottom, #7928caad, #ae00a2a8, #c8007bad, #d000538e, #cb07319b);
+  -webkit-background-clip: text; /* Para navegadores basados en Webkit (como Chrome y Safari) */
+  background-clip: text;
+  color: transparent; /* Hace que el texto sea transparente */
+  font-weight: bold; /* Grosor de la fuente (opcional) */
+  font-size: 2.5rem;
+  
+}
+.bubble1{
+  right: 12vw;
+  top:20vh;
+}
+.bubble2{
+  right: 4vw;
+  top:60vh;
+}
+.bubble3{
+  right: 35vw;
+  top: 25vh;
+}
+.bubble4{
+  right: 20vw;
+  top: 40vh;
+}
 .presentation h1 {
     font-size: 4rem;
     font-weight: bold;
@@ -57,4 +89,14 @@ body::-webkit-scrollbar {
 .ProjectContainer{
   margin-left: 0.8rem;
 
+}
+/*Animaciones*/
+
+@keyframes moveUpDown {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(5px);
+  }
 }

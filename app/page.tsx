@@ -40,9 +40,24 @@ export default function Home() {
      setScrollY(position)
     
   }
+  let bubbles = [
+    "</>",
+    "{}",
+    "f'{}'",
+    "<?php"
+  ]
   return (
     <main className="home">
       <section id="home" className="presentation">
+        <div className="bubbles bubble1"><span>{bubbles[0]}</span>
+        </div>
+        <div className="bubbles bubble2"><span>{bubbles[1]}</span>
+        </div>
+        <div className="bubbles bubble3"><span>{bubbles[2]}</span>
+        </div>
+        <div className="bubbles bubble4"><span>{bubbles[3]}</span>
+        </div>
+
         <article>
           <h1>
             Hi! <br />

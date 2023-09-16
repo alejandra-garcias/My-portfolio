@@ -19,6 +19,7 @@
 }
 .nav-bar-container li,a{
   text-decoration: none;
+  transition: all 0.2s ease;
 
 }
 
