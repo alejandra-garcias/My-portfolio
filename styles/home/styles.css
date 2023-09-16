@@ -1,11 +1,4 @@
-body {
-  font-family: 'Heming Variable', sans-serif;
-}
-
-h1,p {
-  font-family: 'Helvetica Light Regular', sans-serif;
-  color:#222222;
-}
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@300&display=swap');
 
 body::-webkit-scrollbar {
     display: none !important;
@@ -14,7 +7,7 @@ body::-webkit-scrollbar {
   /* IE y Edge */
   body {
     -ms-overflow-style: none !important;
-    background-color:#F8F9FA;
+    
   }
   
   /* Firefox */
@@ -30,7 +23,7 @@ body::-webkit-scrollbar {
   font-weight: bold;
 }
 .presentation {
-    height: 100vh;
+    height: 83vh;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -58,5 +51,10 @@ body::-webkit-scrollbar {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     width: 100vw;
+
+}
+
+.ProjectContainer{
+  margin-left: 0.8rem;
 
 }

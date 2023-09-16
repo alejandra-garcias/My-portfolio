@@ -1,0 +1,2 @@
+Barrita que rota, tanto con circulo como sin circulo
+cursor bolita

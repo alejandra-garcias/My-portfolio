@@ -1,7 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
 import '../styles/home/styles.css'
-import Button from'../component/Button/Button'
+
+
 
 function Card({ title, img,tagline, projectUrl}) {
     return (
