@@ -35,6 +35,11 @@ body::-webkit-scrollbar {
   width: 100px;
   height: 100px;
   animation: moveUpDown 2s infinite ease;
+  user-select: none;
+  pointer-events: none;
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -ms-user-drag: none;
   
 }
 .bubbles span{
@@ -89,6 +94,12 @@ body::-webkit-scrollbar {
 .ProjectContainer{
   margin-left: 0.8rem;
 
+
+}
+.gradiant{
+  background-image: linear-gradient(to bottom, #7928caad, #ae00a2a8, #c8007bad, #d000538e, #cb07319b);
+  background-color: red;
+  
 }
 /*Animaciones*/
 
