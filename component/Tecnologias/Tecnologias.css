@@ -2,7 +2,13 @@
 .tecnologias{
     padding-top: 2rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+.tecnologia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 svg{

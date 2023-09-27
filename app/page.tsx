@@ -59,8 +59,8 @@ export default function Home() {
         <div className="bubbles bubble4"><span>{bubbles[3]}</span>
         </div>
 
-        <article>
-          <h1>
+        <article className="title">
+          <h1 >
             Hi! <br />
             <span className="gradiant-text-centre">{presentation}</span>
           </h1>
@@ -69,8 +69,8 @@ export default function Home() {
             full-stack experiences that meld innovation with functionality.
           </p>
         </article>
-        <span id="projects"></span>
       </section>
+      <span id="projects"></span>
 
       <div>
         <h2 className="gradiant-text-centre">Projects</h2>

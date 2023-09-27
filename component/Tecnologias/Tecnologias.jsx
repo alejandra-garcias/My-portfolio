@@ -8,42 +8,66 @@ const Tecnologias = () => {
       <section class="container">
         <h2 className="gradiant-text-centre">Skills and Technologies </h2>
         <div class="tecnologias">
-            <div>
-                <Image src={"/img/Python.svg"} width={64} height={64} alt="Python" />
-          <p class="mb-0">Python</p>
-            </div>
-          
-          <div>
+          <div class="tecnologia">
+            <Image
+              src={"/img/Python.svg"}
+              width={64}
+              height={64}
+              alt="Python"
+            />
+            <p>Python</p>
+          </div>
+
+          <div class="tecnologia">
             <Image src={"/img/mysql.svg"} width={64} height={64} alt="MySQL" />
-            <p class="mb-0">MySQL</p>
+            <p>MySQL</p>
           </div>
-          <div>
-            <Image src={"/img/laravel.png"} width={64} height={64} alt="Laravel" />
-            <p class="mb-0">Laravel</p>
+          <div class="tecnologia">
+            <Image
+              src={"/img/laravel.png"}
+              width={64}
+              height={64}
+              alt="Laravel"
+            />
+            <p>Laravel</p>
           </div>
-          <div>
+          <div class="tecnologia">
             <Image src={"/img/php.svg"} width={64} height={64} alt="PHP" />
-            <p class="mb-0">PHP</p>
+            <p>PHP</p>
           </div>
-          <div>
+          <div class="tecnologia">
             <Image src={"/img/react.svg"} width={64} height={64} alt="React" />
-            <p class="mb-0">React</p>
+            <p>React</p>
           </div>
-          <div>
+          <div class="tecnologia">
             <Image src={"/img/html.svg"} width={64} height={64} alt="HTML" />
-            <p class="mb-0">HTML</p>
+            <p>HTML</p>
           </div>
-          <div>
+          <div class="tecnologia">
             <Image src={"/img/css.svg"} width={64} height={64} alt="Css" />
-            <p class="mb-0">CSS</p>
+            <p>CSS</p>
           </div>
-          <div>
-            <Image src={"/img/javascript.svg"} width={64} height={64} alt="Javascript" />
-            <p class="mb-0">Javascript</p>
+          <div class="tecnologia">
+            <Image
+              src={"/img/javascript.svg"}
+              width={64}
+              height={64}
+              alt="Javascript"
+            />
+            <p>Javascript</p>
           </div>
-          <div>
-            <Image src={"/img/bootstrap.svg"} width={64} height={64} alt="Bootstrap" />
-            <p class="mb-0">Bootstrap</p>
+          <div class="tecnologia">
+            <Image src={"/img/Sass.svg"} width={64} height={64} alt="Sass" />
+            <p>Sass</p>
+          </div>
+          <div class="tecnologia">
+            <Image
+              src={"/img/bootstrap.svg"}
+              width={64}
+              height={64}
+              alt="Bootstrap"
+            />
+            <p>Bootstrap</p>
           </div>
         </div>
       </section>
