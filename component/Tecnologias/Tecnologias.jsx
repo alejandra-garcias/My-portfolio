@@ -1,5 +1,5 @@
 import React from "react";
-import "../Tecnologias/Tecnologias.css";
+import "../Tecnologias/Tecnologias.scss";
 import Image from "next/image";
 
 const Tecnologias = () => {
@@ -10,7 +10,7 @@ const Tecnologias = () => {
         <div class="tecnologias">
           <div class="tecnologia">
             <Image
-              src={"/img/Python.svg"}
+              src={"/skills-section/Python.svg"}
               width={64}
               height={64}
               alt="Python"
@@ -19,12 +19,12 @@ const Tecnologias = () => {
           </div>
 
           <div class="tecnologia">
-            <Image src={"/img/mysql.svg"} width={64} height={64} alt="MySQL" />
+            <Image src={"/skills-section/mysql.svg"} width={64} height={64} alt="MySQL" />
             <p>MySQL</p>
           </div>
           <div class="tecnologia">
             <Image
-              src={"/img/laravel.png"}
+              src={"/skills-section/laravel.png"}
               width={64}
               height={64}
               alt="Laravel"
@@ -32,24 +32,24 @@ const Tecnologias = () => {
             <p>Laravel</p>
           </div>
           <div class="tecnologia">
-            <Image src={"/img/php.svg"} width={64} height={64} alt="PHP" />
+            <Image src={"/skills-section/php.svg"} width={64} height={64} alt="PHP" />
             <p>PHP</p>
           </div>
           <div class="tecnologia">
-            <Image src={"/img/react.svg"} width={64} height={64} alt="React" />
+            <Image src={"/skills-section/react.svg"} width={64} height={64} alt="React" />
             <p>React</p>
           </div>
           <div class="tecnologia">
-            <Image src={"/img/html.svg"} width={64} height={64} alt="HTML" />
+            <Image src={"/skills-section/html.svg"} width={64} height={64} alt="HTML" />
             <p>HTML</p>
           </div>
           <div class="tecnologia">
-            <Image src={"/img/css.svg"} width={64} height={64} alt="Css" />
+            <Image src={"/skills-section/css.svg"} width={64} height={64} alt="Css" />
             <p>CSS</p>
           </div>
           <div class="tecnologia">
             <Image
-              src={"/img/javascript.svg"}
+              src={"/skills-section/javascript.svg"}
               width={64}
               height={64}
               alt="Javascript"
@@ -57,12 +57,12 @@ const Tecnologias = () => {
             <p>Javascript</p>
           </div>
           <div class="tecnologia">
-            <Image src={"/img/Sass.svg"} width={64} height={64} alt="Sass" />
+            <Image src={"/skills-section/Sass.svg"} width={64} height={64} alt="Sass" />
             <p>Sass</p>
           </div>
           <div class="tecnologia">
             <Image
-              src={"/img/bootstrap.svg"}
+              src={"/skills-section/bootstrap.svg"}
               width={64}
               height={64}
               alt="Bootstrap"

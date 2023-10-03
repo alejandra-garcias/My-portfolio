@@ -41,6 +41,20 @@
   }
 
   /*Ajustes globales de proyecto*/
+  body::-webkit-scrollbar {
+    display: none !important;
+  }
+  
+  /* IE y Edge */
+  body {
+    -ms-overflow-style: none !important;
+    
+  }
+  
+  /* Firefox */
+  body {
+    scrollbar-width: none !important;
+  }
   html{
     scroll-behavior: smooth;
 }
@@ -109,74 +123,56 @@ h2{
     background-color: var(--color-grisblanco);
  }
 
-/* Estilos de contact*/
 
-.contact{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    gap:  2.6rem;
-    padding-top:  7rem;
-    padding-bottom:  7rem;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .contenedor-page{
+  background-color: rebeccapurple;
+  display: flex; 
 }
-
-.container-contact{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    background-color: #383748;
-    color: var(--color-primary);
-    text-align: center;
+.contenedor-info{
+  background-color: #eb0094;
+  width: 50%;
 }
-.container-contact p,h2{
-
-    color: var(--color-primary);
-    
+.container-iconos{
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
 }
-.Network{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    color: var(--color-primary);
-    
-
+.contenedor-fotosbotones{
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;
+  width: 50%;
+  align-items: center;
 }
-.Network h3{
-    text-decoration: underline;
-    color: var(--color-primary);
-
+.contenedor-botones{
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.Network li{
-    list-style: none;
-}
-.Network a{
-    color: var(--color-primary);
-
-
-}
-
-/* Estilos About*/
- 
-.about-container{
-    display: flex;
-    
-}
-
-.education-container{
-    width: 50vw;
-    word-wrap: normal;
-}
-.work-container{
-    width: 50vw;
-}
-
-/*PROJECT PAGE*/
-.container-grisaceo-project{
-    background-color: var(--color-grisblanco);
-    width: 100vw;
-    height: 100vh;
-
-}
-
-

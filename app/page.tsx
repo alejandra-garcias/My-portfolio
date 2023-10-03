@@ -1,19 +1,18 @@
 "use client";
-import "../styles/card/styles.css";
-import "../styles/home/styles.css";
+import "../component/Card/styles.css";
+import "../styles/styles.scss";
 import certificado1 from "../assets/6.png";
 import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import projectsJson from "../projects.json";
-import Card from "../component/Card";
-import Technologies from '../component/Tecnologias/Tecnologias'
-
+import Card from "../component/Card/Card";
+import Technologies from "../component/Tecnologias/Tecnologias";
 
 export default function Home() {
   const [presentation, setPresentation] = useState("My name is Alejandra");
   const [statePresentation, setStatePresentation] = useState(true);
   const [projects, setProjects] = useState(projectsJson);
-  const [ScrollY, setScrollY] = useState(0)
+  const [ScrollY, setScrollY] = useState(0);
 
   useEffect(() => {
     setTimeout(() => {
@@ -21,10 +20,9 @@ export default function Home() {
     }, 3500);
   }, [statePresentation]);
 
-  useEffect(()=>{
-    window.addEventListener('scroll',handleScroll)
-
-  },[])
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+  }, []);
 
   const switchTitle = () => {
     if (statePresentation === true) {
@@ -34,33 +32,30 @@ export default function Home() {
       setStatePresentation(true);
       setPresentation("I'm a full-stack developer");
     }
-
   };
-  const handleScroll = () =>{
-    let position = window.scrollY
-     setScrollY(position)
-    
-  }
-  let bubbles = [
-    "</>",
-    "{}",
-    "f'{}'",
-    "<?php"
-  ]
+  const handleScroll = () => {
+    let position = window.scrollY;
+    setScrollY(position);
+  };
+  let bubbles = ["</>", "{}", "f'{}'", "<?php"];
   return (
     <main className="home">
       <section id="home" className="presentation">
-        <div className="bubbles bubble1"><span>{bubbles[0]}</span>
+        <div className="bubbles bubble1">
+          <span>{bubbles[0]}</span>
         </div>
-        <div className="bubbles bubble2"><span>{bubbles[1]}</span>
+        <div className="bubbles bubble2">
+          <span>{bubbles[1]}</span>
         </div>
-        <div className="bubbles bubble3"><span>{bubbles[2]}</span>
+        <div className="bubbles bubble3">
+          <span>{bubbles[2]}</span>
         </div>
-        <div className="bubbles bubble4"><span>{bubbles[3]}</span>
+        <div className="bubbles bubble4">
+          <span>{bubbles[3]}</span>
         </div>
 
         <article className="title">
-          <h1 >
+          <h1>
             Hi! <br />
             <span className="gradiant-text-centre">{presentation}</span>
           </h1>
@@ -85,132 +80,48 @@ export default function Home() {
               img={p.image}
               key={p.id}
               technologies={p.technologies}
-              projectUrl={p.projectUrl}
             />
           );
         })}
       </section>
-      <section id="about" className="container">
-        <h2 className="gradiant-text-centre"> About me</h2>
-        <div className="about-container">
-
-          <div className="education-container">
-            <h3 className="gradiant-text">Education</h3>
-            <ul>
-              <li>Degree in Marketing</li>
-              <p>Bournemouth Universiy</p>
-              <p>
-                I acquired a solid foundation in understanding market dynamics,
-                with a focus on SEO, user-centered design, content creation,
-                project management, web analytics, and effective communication.
-              </p>
-              <br />
-              <li>Bootcamp Desarrollo Web Full Stack</li>
-              <p>Aulab Hackademy. 400+hours</p>
-              <p>
-                In 400 hours of coursework, I learned full-stack web
-                development, including HTML, CSS, JavaScript,React and
-                Next.js(front-end), and PHP/Laravel (back-end) and MySQL for
-                database management. I also adopted agile methodologies and the
-                Scrum framework for efficient project management.
-              </p>
-              <br />
-              <li>Curso Python y bases de datos</li>
-              <p>Escuela Directa</p>
-              <p>
-                I acquired a comprehensive understanding of Python, including
-                its fundamentals, game development capabilities, and
-                applications in machine learning and artificial intelligence
-                (AI) during my studies.
-              </p>
-              <br />
-              <li>C1 Ingles</li>
-              <p>Cambridge English</p>
-              <p>
-                The C1 Cambridge level certifies a high proficiency in English,
-                enabling effective communication in academic and professional
-                settings, as well as comprehension of complex texts and
-                discussions.
-              </p>
-            </ul>
-          </div>
-          <div className="work-container">
-            <h3 className="gradiant-text">Work Experience</h3>
-            <ul>
-              <li>Marketing and Sales Officer</li>
-              <p>Aulab - Bari Italia</p>
-              <p>
-                I engaged in direct B2B sales of full-stack web development
-                bootcamps, addressing technical inquiries and hosting
-                interactive webinars for prospective clients. I also executed
-                marketing initiatives tailored to the Spanish market, all while
-                working remotely and maintaining seamless communication with the
-                team.
-              </p>
-              <br />
-              <li>Marketing Manager</li>
-              <p>Infotour360 - Sevilla, Spain </p>
-              <p>
-                In my experience at Infotour, a company specializing in virtual
-                tour creation, my responsibilities included SEO management,
-                website maintenance, and client negotiations. I successfully
-                ensured top-notch online visibility, maintained a seamless web
-                presence, and fostered strong client relationships, contributing
-                to the company's growth and success.
-              </p>
-              <br />
-              <li>Clients Relations and Events Manager</li>
-              <p>Southbourne School of English - Bournemouth </p>
-              <p>
-                I managed client relationships by creating customized event
-                programs, overseeing every aspect from planning to the actual
-                event day, and maintaining strong communication throughout.
-                Additionally, I led a team of over 50 individuals, handling
-                recruitment, training, and management, while also taking charge
-                of budget preparation.
-              </p>
-            </ul>
-          </div>
-        </div>
-        <Technologies/>
-      </section>
+      <Technologies />
       <div id="certificates" className="container-grisaceo">
         <section className="container">
           <h2 className="gradiant-text-centre">Certificates</h2>
           <div className="projects">
             <article className="card">
               <Image
+                className="background-nohover"
                 src={certificado1}
                 width={2500}
                 height={500}
                 alt="Certificado Aulab"
               />
-              
             </article>
             <article className="card">
               <Image
+                className="background-nohover"
                 src={certificado1}
                 width={2500}
                 height={500}
                 alt="Certificado Aulab"
               />
-              
             </article>
             <article className="card">
               <Image
-                src={certificado1}
-                width={2500}
-                height={500}
-                alt="Certificado Aulab"
+                className="background-nohover"
+                src="/Certificates/Python-certificate.jpg"
+                width={2000}
+                height={450}
+                alt="Certificado Python"
               />
-              
             </article>
           </div>
         </section>
       </div>
 
       <section id="contact" className="container-contact">
-        <h2> Contact</h2>
+        <h2> Alejandra Garcia Sanchez</h2>
         <p>
           If you like my work or you wish to discuss further what how we can
           help each other, please feel free to contact me or explore my
@@ -218,27 +129,40 @@ export default function Home() {
           Thank you!
         </p>
         <div className="Network">
-          <h3> My networks</h3>
-          <ul>
-            <li>
-              <a href="https://www.linkedin.com/in/alejandra-garcia-sanchez-2513a212a/">
-                Alejandra Garcia Sanchez
-              </a>
-            </li>
+          <div className="contact-details">
+            <a href="https://www.linkedin.com/in/alejandra-garcia-sanchez-2513a212a/">
+              Alejandra Garcia Sanchez
+            </a>
+            <Image
+              src="/white-logos/linkedin.svg"
+              width={25}
+              height={25}
+              alt="linkedin-icon"
+            />
+          </div>
 
-            <li>
-              <a href="https://www.github.com/alejandra-garcias">
-                alejandra-garcias
-              </a>
-            </li>
+          <div className="contact-details">
+            <a href="https://www.github.com/alejandra-garcias">
+              alejandra-garcias
+            </a>
+            <Image
+              src="/white-logos/github.svg"
+              width={25}
+              height={25}
+              alt="github-icon"
+            />
+          </div>
 
-            <li>
-              <a href="mailto:algasa-97@hotmail.com">algasa-97@hotmail.com</a>
-            </li>
-            <li>
-              <a href="tel:+34644742998">+34 644 74 29 98</a>
-            </li>
-          </ul>
+          <div className="contact-details">
+            <a href="mailto:algasa-97@hotmail.com">algasa-97@hotmail.com</a>
+            <Image
+              src="/white-logos/email.svg"
+              width={25}
+              height={25}
+              alt="email-icon"
+            />
+          </div>
+
           <button className="button">Download my CV here</button>
         </div>
       </section>
