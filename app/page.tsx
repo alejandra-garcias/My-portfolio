@@ -30,7 +30,7 @@ export default function Home() {
       setPresentation("My name is Alejandra");
     } else {
       setStatePresentation(true);
-      setPresentation("I'm a full-stack developer");
+      setPresentation("I am full-stack developer");
     }
   };
   const handleScroll = () => {
