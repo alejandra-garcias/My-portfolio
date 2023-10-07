@@ -28,8 +28,8 @@ export default function ProjectDetails({ params }) {
         <div>
           <p>Technologies I used:</p>
           <div className="container-iconos">
-            {project.technologies.map((t) => {
-              return <IconGradiant name={t} />;
+            {project.technologies.map((t,i) => {
+              return <IconGradiant name={t} key={i}/>;
             })}
           </div>
         </div>
