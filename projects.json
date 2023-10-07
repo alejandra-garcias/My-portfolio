@@ -4,184 +4,62 @@
         "title": "VinexVino",
         "tagline": "My inaugural full-stack endeavor: an online wine repository seamlessly integrated with MySQL",
         "description": "Laravel-Powered Online Winery with MySQL Integration\n -A virtual haven for wine enthusiasts, housing an extensive selection of wines and curated wine bars.\n-User-Centric Experience: Upon registration, users access an immersive wine world, effortlessly modifying their content via an intuitive interface.\n-Password Recovery: A sophisticated system ensures uninterrupted access, aiding users in unforeseen situations.\n-Seamless Deletion: Users easily remove content misaligned with evolving tastes, ensuring a tidy experience.",
-        "technologies": ["laravel", "bootstrap","mysql","html"],
+        "technologies": ["laravel","php","css", "bootstrap","mysql","html"],
         "image": "/ProjectPictures/Vinexvino.png",
-        "links": [
-            {
-                "url": "",
-                "name": "",
-                "icon": "",
-                "ariaLink": ""
-            },
-            {
-                "url": "https://www.figma.com/file/QWaSxHubvbKVigRqX1gLAl/Pokedex?type=design&node-id=0%3A1&mode=design&t=lpsilPnaVh3cclMv-1",
-                "name": "Figma",
-                "icon": "figma",
-                "ariaLink": "Link that drives to figma"
-            },
-            {
-                "url": "https://pokedex1991.netlify.app/",
-                "name": "Go to site",
-                "icon": "leave-to",
-                "ariaLink": "Link that drives to https://pokedex1991.netlify.app/"
-            }
-        ],
-        "year": "2023",
-        "role": "Web designer, developer and project owner",
-        "projectUrl": "https://pokedex1991.netlify.app/"
+        "urlGithub": "https://github.com/alejandra-garcias/VinexVino",
+        "urlSite": "https://github.com/alejandra-garcias/VinexVino"
+        
     },
     {
         "id": "Reusefy",
         "title": "Reusefy",
         "tagline": "A second hand e-commerce.  ",
-        "description": "Descripcion",
-        "technologies": ["laravel", "sass","javascript","mysql"],
-        "image": "/ProjectPictures/Vinexvino.png",
-        "links": [
-            {
-                "url": "https://github.com/agimenez91/pokedex.git",
-                "name": "GitHub",
-                "icon": "github",
-                "ariaLink": "Link that drives to github"
-            },
-            {
-                "url": "https://www.figma.com/file/QWaSxHubvbKVigRqX1gLAl/Pokedex?type=design&node-id=0%3A1&mode=design&t=lpsilPnaVh3cclMv-1",
-                "name": "Figma",
-                "icon": "figma",
-                "ariaLink": "Link that drives to figma"
-            },
-            {
-                "url": "https://pokedex1991.netlify.app/",
-                "name": "Go to site",
-                "icon": "leave-to",
-                "ariaLink": "Link that drives to https://pokedex1991.netlify.app/"
-            }
-        ],
-        "year": "2023",
-        "role": "Web designer, developer and project owner",
-        "projectUrl": "/project/pokedex"
+        "description": "Arquitectura Modelo-Vista-Controlador en laravel",
+        "technologies": ["laravel","php", "sass","javascript","mysql"],
+        "image": "/ProjectPictures/8.png",
+        "urlGithub": "https://github.com/alejandra-garcias/Reusefy",
+        "urlSite": "https://github.com/alejandra-garcias/VinexVino"
     },
     {
-        "id": "Python Project",
-        "title": "Python Project",
-        "tagline": "Python Project ",
-        "description": "Python Project",
-        "technologies": ["python", "css"],
+        "id": "Reusefy",
+        "title": "Reusefy",
+        "tagline": "A second hand e-commerce.  ",
+        "description": "Arquitectura Modelo-Vista-Controlador en laravel",
+        "technologies": ["laravel","php", "sass","javascript","mysql"],
         "image": "/ProjectPictures/6.png",
-        "links": [
-            {
-                "url": "https://github.com/agimenez91/pokedex.git",
-                "name": "GitHub",
-                "icon": "github",
-                "ariaLink": "Link that drives to github"
-            },
-            {
-                "url": "https://www.figma.com/file/QWaSxHubvbKVigRqX1gLAl/Pokedex?type=design&node-id=0%3A1&mode=design&t=lpsilPnaVh3cclMv-1",
-                "name": "Figma",
-                "icon": "figma",
-                "ariaLink": "Link that drives to figma"
-            },
-            {
-                "url": "https://pokedex1991.netlify.app/",
-                "name": "Go to site",
-                "icon": "leave-to",
-                "ariaLink": "Link that drives to https://pokedex1991.netlify.app/"
-            }
-        ],
-        "year": "2023",
-        "role": "Web designer, developer and project owner",
-        "projectUrl": "/project/pokedex"
+        "urlGithub": "https://github.com/alejandra-garcias/Reusefy",
+        "urlSite": "https://github.com/alejandra-garcias/VinexVino"
     },
     {
-        "id": " Project",
-        "title": " Project 1",
-        "tagline": " Project ",
-        "description": "Python Project",
-        "technologies": ["react", "sass"],
+        "id": "Reusefy",
+        "title": "Reusefy",
+        "tagline": "A second hand e-commerce.  ",
+        "description": "Arquitectura Modelo-Vista-Controlador en laravel",
+        "technologies": ["laravel","php", "sass","javascript","mysql"],
         "image": "/ProjectPictures/6.png",
-        "links": [
-            {
-                "url": "https://github.com/agimenez91/pokedex.git",
-                "name": "GitHub",
-                "icon": "github",
-                "ariaLink": "Link that drives to github"
-            },
-            {
-                "url": "https://www.figma.com/file/QWaSxHubvbKVigRqX1gLAl/Pokedex?type=design&node-id=0%3A1&mode=design&t=lpsilPnaVh3cclMv-1",
-                "name": "Figma",
-                "icon": "figma",
-                "ariaLink": "Link that drives to figma"
-            },
-            {
-                "url": "https://pokedex1991.netlify.app/",
-                "name": "Go to site",
-                "icon": "leave-to",
-                "ariaLink": "Link that drives to https://pokedex1991.netlify.app/"
-            }
-        ],
-        "year": "2023",
-        "role": "Web designer, developer and project owner",
-        "projectUrl": "/project/pokedex"
-    },{
-        "id": "Python Project2",
-        "title": " Project 2",
-        "tagline": " Project 2 ",
-        "description": "Python Project",
-        "technologies": ["next", "bootstrap"],
+        "urlGithub": "https://github.com/alejandra-garcias/Reusefy",
+        "urlSite": "https://github.com/alejandra-garcias/VinexVino"
+    },
+    {
+        "id": "Reusefy",
+        "title": "Reusefy",
+        "tagline": "A second hand e-commerce.  ",
+        "description": "Arquitectura Modelo-Vista-Controlador en laravel",
+        "technologies": ["laravel","php", "sass","javascript","mysql"],
         "image": "/ProjectPictures/6.png",
-        "links": [
-            {
-                "url": "https://github.com/agimenez91/pokedex.git",
-                "name": "GitHub",
-                "icon": "github",
-                "ariaLink": "Link that drives to github"
-            },
-            {
-                "url": "https://www.figma.com/file/QWaSxHubvbKVigRqX1gLAl/Pokedex?type=design&node-id=0%3A1&mode=design&t=lpsilPnaVh3cclMv-1",
-                "name": "Figma",
-                "icon": "figma",
-                "ariaLink": "Link that drives to figma"
-            },
-            {
-                "url": "https://pokedex1991.netlify.app/",
-                "name": "Go to site",
-                "icon": "leave-to",
-                "ariaLink": "Link that drives to https://pokedex1991.netlify.app/"
-            }
-        ],
-        "year": "2023",
-        "role": "Web designer, developer and project owner",
-        "projectUrl": "/project/pokedex"
-    },{
-        "id": "Python Project3",
-        "title": " Project3",
-        "tagline": " Project3 ",
-        "description": "Python Project",
-        "technologies": ["python", "bootstrap"],
+        "urlGithub": "https://github.com/alejandra-garcias/Reusefy",
+        "urlSite": "https://github.com/alejandra-garcias/VinexVino"
+    },
+    {
+        "id": "Reusefy",
+        "title": "Reusefy",
+        "tagline": "A second hand e-commerce.  ",
+        "description": "Arquitectura Modelo-Vista-Controlador en laravel",
+        "technologies": ["laravel","php", "sass","javascript","mysql"],
         "image": "/ProjectPictures/6.png",
-        "links": [
-            {
-                "url": "https://github.com/agimenez91/pokedex.git",
-                "name": "GitHub",
-                "icon": "github",
-                "ariaLink": "Link that drives to github"
-            },
-            {
-                "url": "https://www.figma.com/file/QWaSxHubvbKVigRqX1gLAl/Pokedex?type=design&node-id=0%3A1&mode=design&t=lpsilPnaVh3cclMv-1",
-                "name": "Figma",
-                "icon": "figma",
-                "ariaLink": "Link that drives to figma"
-            },
-            {
-                "url": "https://pokedex1991.netlify.app/",
-                "name": "Go to site",
-                "icon": "leave-to",
-                "ariaLink": "Link that drives to https://pokedex1991.netlify.app/"
-            }
-        ],
-        "year": "2023",
-        "role": "Web designer, developer and project owner",
-        "projectUrl": "/project/pokedex"
+        "urlGithub": "https://github.com/alejandra-garcias/Reusefy",
+        "urlSite": "https://github.com/alejandra-garcias/VinexVino"
     }
+   
     
 ]

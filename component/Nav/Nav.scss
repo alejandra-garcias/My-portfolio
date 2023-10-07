@@ -1,42 +1,47 @@
-.nav-bar-container{
-    margin:0;
+.nav-bar-container {
+    margin: 0;
     position: sticky;
     top: 0;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-start; 
+    align-items: flex-start;
     padding-right: 1.8rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     list-style: none;
     background-color: var(--color-nav);
     z-index: 100000000000;
-    li{
+
+    li {
         margin-right: 1rem;
         text-decoration: none;
         transition: all 0.2s ease;
     }
-    a{
+
+    a {
         text-decoration: none;
         transition: all 0.2s ease;
     }
-    a:hover{
+
+    a:hover {
         padding-bottom: 4px;
         border-bottom: 2px solid #ec57ac;
         background-image: linear-gradient(to bottom, #7928ca, #ae00a3, #c8007a, #d00054, #cb0732);
-        -webkit-background-clip: text; 
+        -webkit-background-clip: text;
         background-clip: text;
-        color: transparent; /* Hace que el texto sea transparente */
-        font-weight: bold; /* Grosor de la fuente */
+        color: transparent;
+        /* Hace que el texto sea transparente */
+        font-weight: bold;
+        /* Grosor de la fuente */
     }
-    .active{
-    padding-bottom: 4px;
-    border-bottom: 2px solid #ec57ac;
-    background-image: linear-gradient(to bottom, #7928ca, #ae00a3, #c8007a, #d00054, #cb0732);
-    -webkit-background-clip: text; 
-    background-clip: text;
-    color: transparent; 
-    font-weight: bold; 
-  }
+
+    .active {
+        padding-bottom: 4px;
+        border-bottom: 2px solid #ec57ac;
+        background-image: linear-gradient(to bottom, #7928ca, #ae00a3, #c8007a, #d00054, #cb0732);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-weight: bold;
+    }
 }
-  

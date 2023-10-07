@@ -7,6 +7,7 @@ import React, { useState, useEffect } from "react";
 import projectsJson from "../projects.json";
 import Card from "../component/Card/Card";
 import Technologies from "../component/Tecnologias/Tecnologias";
+import Link from "next/link";
 
 export default function Home() {
   const [presentation, setPresentation] = useState("My name is Alejandra");
@@ -110,11 +111,18 @@ export default function Home() {
             <article className="card">
               <Image
                 className="background-nohover"
-                src="/Certificates/Python-certificate.jpg"
+                src="/Certificates/Python-certificate.png"
                 width={2000}
                 height={450}
                 alt="Certificado Python"
               />
+              <div className="contenedor">
+                <div className="arrow">
+                  <Link href="/Certificates/Python-certificate.pdf">
+                    <button>↗</button>
+                  </Link>
+                </div>
+              </div>
             </article>
           </div>
         </section>
@@ -133,37 +141,43 @@ export default function Home() {
             <a href="https://www.linkedin.com/in/alejandra-garcia-sanchez-2513a212a/">
               Alejandra Garcia Sanchez
             </a>
-            <Image
-              src="/white-logos/linkedin.svg"
-              width={25}
-              height={25}
-              alt="linkedin-icon"
-            />
+            <a href="https://www.linkedin.com/in/alejandra-garcia-sanchez-2513a212a/">
+              <Image
+                src="/white-logos/linkedin.svg"
+                width={25}
+                height={25}
+                alt="linkedin-icon"
+              />
+            </a>
           </div>
 
           <div className="contact-details">
             <a href="https://www.github.com/alejandra-garcias">
               alejandra-garcias
             </a>
-            <Image
-              src="/white-logos/github.svg"
-              width={25}
-              height={25}
-              alt="github-icon"
-            />
+            <a href="https://www.github.com/alejandra-garcias">
+              <Image
+                src="/white-logos/github.svg"
+                width={25}
+                height={25}
+                alt="github-icon"
+              />
+            </a>
           </div>
 
           <div className="contact-details">
             <a href="mailto:algasa-97@hotmail.com">algasa-97@hotmail.com</a>
-            <Image
-              src="/white-logos/email.svg"
-              width={25}
-              height={25}
-              alt="email-icon"
-            />
+            <a href="mailto:algasa-97@hotmail.com">
+              <Image
+                src="/white-logos/email.svg"
+                width={25}
+                height={25}
+                alt="email-icon"
+              />
+            </a>
           </div>
 
-          <button className="button">Download my CV here</button>
+          <button className="button2">Download my CV here</button>
         </div>
       </section>
     </main>

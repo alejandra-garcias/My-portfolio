@@ -25,9 +25,9 @@ function Card({ title, img, tagline, technologies }) {
             })}
           </div>
           <div className="arrow">
-           
-              <Link href={`/projects/${title}`}><button>↗</button></Link>
-          
+            <Link href={`/projects/${title}`}>
+              <button>↗</button>
+            </Link>
           </div>
         </div>
       </div>

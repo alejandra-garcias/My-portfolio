@@ -1,28 +1,27 @@
-import './globals.css'
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import Nav from "../component/Nav/Nav"
+import "./globals.css";
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import Nav from "../component/Nav/Nav";
 
-
-
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Portfolio Alejandra Garcia',
-  description: 'Portfolio',
-}
+  title: "Portfolio Alejandra Garcia",
+  description: "Portfolio",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Nav/>
-   
-      {children}</body>
+        <Nav />
+
+        {children}
+      </body>
     </html>
-  )
+  );
 }

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@300&display=swap');
+
+button, a{
+  cursor: pointer;
+}
+.contenedor-page {
+  display: flex;
+  margin: 2rem;
+}
+
+.contenedor-info {
+
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+
+}
+
+.container-iconos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  gap: 0.8rem;
+  border-radius: 20px;
+
+  img {
+    width: auto;
+    height: 6vh;
+
+
+  }
+}
+
+.contenedor-fotosbotones {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+  align-items: center;
+}
+
+.contenedor-botones {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor-fotosbotones img {
+  width: 75%;
+  height: 80%;
+  object-fit: cover;
+  mix-blend-mode: luminosity;
+}

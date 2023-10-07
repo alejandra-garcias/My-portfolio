@@ -1,14 +1,14 @@
 import React from "react";
-import { Iconos } from "./IconMap";
 import Image from "next/image";
+import { IconosGradiant } from "./IconMapGradiant";
 
-const Icon = ({ name }) => {
+const IconGradiant = ({ name }) => {
   return (
     <>
       {name ? (
         <Image
           className="icono"
-          src={Iconos[name]}
+          src={IconosGradiant[name]}
           alt={name}
           width={10}
           height={10}
@@ -20,4 +20,4 @@ const Icon = ({ name }) => {
   );
 };
 
-export default Icon;
+export default IconGradiant;

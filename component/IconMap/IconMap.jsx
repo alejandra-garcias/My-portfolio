@@ -12,7 +12,8 @@ export let Iconos = {
     'python':'/white-logos/python-blanco.svg',
     'react':'/white-logos/react-blanco.svg',
     'next':'/white-logos/next-blanco.svg',
-    'sass':'/white-logos/sass-blanco.svg',}
+    'sass':'/white-logos/sass-blanco.svg',
+    'django':'/white-logos/django-blanco.svg',}
  
 
 

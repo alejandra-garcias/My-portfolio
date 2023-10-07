@@ -17,9 +17,23 @@ const Tecnologias = () => {
             />
             <p>Python</p>
           </div>
+          <div class="tecnologia">
+            <Image
+              src={"/skills-section/django.svg"}
+              width={64}
+              height={64}
+              alt="Django"
+            />
+            <p>Django</p>
+          </div>
 
           <div class="tecnologia">
-            <Image src={"/skills-section/mysql.svg"} width={64} height={64} alt="MySQL" />
+            <Image
+              src={"/skills-section/mysql.svg"}
+              width={64}
+              height={64}
+              alt="MySQL"
+            />
             <p>MySQL</p>
           </div>
           <div class="tecnologia">
@@ -32,20 +46,22 @@ const Tecnologias = () => {
             <p>Laravel</p>
           </div>
           <div class="tecnologia">
-            <Image src={"/skills-section/php.svg"} width={64} height={64} alt="PHP" />
+            <Image
+              src={"/skills-section/php.svg"}
+              width={64}
+              height={64}
+              alt="PHP"
+            />
             <p>PHP</p>
           </div>
           <div class="tecnologia">
-            <Image src={"/skills-section/react.svg"} width={64} height={64} alt="React" />
+            <Image
+              src={"/skills-section/react.svg"}
+              width={64}
+              height={64}
+              alt="React"
+            />
             <p>React</p>
-          </div>
-          <div class="tecnologia">
-            <Image src={"/skills-section/html.svg"} width={64} height={64} alt="HTML" />
-            <p>HTML</p>
-          </div>
-          <div class="tecnologia">
-            <Image src={"/skills-section/css.svg"} width={64} height={64} alt="Css" />
-            <p>CSS</p>
           </div>
           <div class="tecnologia">
             <Image
@@ -57,7 +73,31 @@ const Tecnologias = () => {
             <p>Javascript</p>
           </div>
           <div class="tecnologia">
-            <Image src={"/skills-section/Sass.svg"} width={64} height={64} alt="Sass" />
+            <Image
+              src={"/skills-section/html.svg"}
+              width={64}
+              height={64}
+              alt="HTML"
+            />
+            <p>HTML</p>
+          </div>
+          <div class="tecnologia">
+            <Image
+              src={"/skills-section/css.svg"}
+              width={64}
+              height={64}
+              alt="Css"
+            />
+            <p>CSS</p>
+          </div>
+          
+          <div class="tecnologia">
+            <Image
+              src={"/skills-section/Sass.svg"}
+              width={64}
+              height={64}
+              alt="Sass"
+            />
             <p>Sass</p>
           </div>
           <div class="tecnologia">

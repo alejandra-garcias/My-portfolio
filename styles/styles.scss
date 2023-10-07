@@ -1,123 +1,142 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@300&display=swap');
 
-/* Estilos de Home*/
-.title{
+/*Home*/
+.title {
   height: auto;
 }
 
 .presentation {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    position: relative;
-    .bubble1{
-        right: 12vw;
-        top:20vh;
-      }
-      .bubble2{
-        right: 4vw;
-        top:60vh;
-      }
-      .bubble3{
-        right: 35vw;
-        top: 25vh;
-      }
-      .bubble4{
-        right: 20vw;
-        top: 40vh;
-      }
-    .bubbles{
-        position:absolute;
-        width: 100px;
-        height: 100px;
-        animation: moveUpDown 2s infinite ease;
-        user-select: none;
-        pointer-events: none;
-        -webkit-user-drag: none;
-        -moz-user-drag: none;
-        -ms-user-drag: none;
-        span{
-          background-image: linear-gradient(to bottom, #7928caad, #ae00a2a8, #c8007bad, #d000538e, #cb07319b);
-          -webkit-background-clip: text; /* Para navegadores basados en Webkit (como Chrome y Safari) */
-          background-clip: text;
-          color: transparent; /* Hace que el texto sea transparente */
-          font-weight: bold; /* Grosor de la fuente (opcional) */
-          font-size: 2.5rem;
-          
-        }
-      }
-      h1 {
-        font-size: 4rem;
-        font-weight: bold;
-        width: 80vw;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+
+  .bubble1 {
+    right: 12vw;
+    top: 20vh;
+  }
+
+  .bubble2 {
+    right: 4vw;
+    top: 60vh;
+  }
+
+  .bubble3 {
+    right: 35vw;
+    top: 25vh;
+  }
+
+  .bubble4 {
+    right: 20vw;
+    top: 40vh;
+  }
+
+  .bubbles {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    animation: moveUpDown 2s infinite ease;
+    user-select: none;
+    pointer-events: none;
+    -webkit-user-drag: none;
+    -moz-user-drag: none;
+    -ms-user-drag: none;
+
+    span {
+      background-image: linear-gradient(to bottom, #7928caad, #ae00a2a8, #c8007bad, #d000538e, #cb07319b);
+      -webkit-background-clip: text;
+      /* Para navegadores basados en Webkit (como Chrome y Safari) */
+      background-clip: text;
+      color: transparent;
+      /* Hace que el texto sea transparente */
+      font-weight: bold;
+      /* Grosor de la fuente (opcional) */
+      font-size: 2.5rem;
+
     }
-    p {
-        font-size: 1.3rem;
-    
-    }
-    article {
-        width: 60vw;
-        margin-left: 10vw;
-    }
-     
+  }
+
+  h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    width: 80vw;
+  }
+
+  p {
+    font-size: 1.3rem;
+
+  }
+
+  article {
+    width: 60vw;
+    margin-left: 10vw;
+  }
+
 }
 
-/* Estilos de Projects*/
+/*Projects*/
 .projects {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 100vw;
 
 }
 
-/* Estilos de Contact*/
+/*Contact*/
 
-.container-contact{
+.container-contact {
   padding-top: 2rem;
   padding-bottom: 2rem;
   background-color: #383748;
   color: var(--color-primary);
   text-align: center;
-  h2{
+
+  h2 {
 
     color: var(--color-primary);
-    
+
   }
-  p{
+
+  p {
 
     color: var(--color-primary);
-    
+
   }
-  .Network{
+
+  .Network {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
     color: var(--color-primary);
     padding: 1rem;
-    h3{
-        text-decoration: underline;
-        color: var(--color-primary);
-      
-      }
-      li{
-        list-style: none;
-      }
-      a{
-        color: var(--color-primary);
-      
-      
-      }
-      .contact-details{
-        display: flex;
-        width: 18vw;
-        justify-content: space-between;
-        align-items: center;
-      }
+
+    h3 {
+      text-decoration: underline;
+      color: var(--color-primary);
+
+    }
+
+    li {
+      list-style: none;
+    }
+
+    a {
+      color: var(--color-primary);
+
+
+    }
+
+    .contact-details {
+      display: flex;
+      width: 18vw;
+      justify-content: space-between;
+      align-items: center;
+    }
 
 
   }
@@ -128,10 +147,13 @@
 /*Animaciones*/
 
 @keyframes moveUpDown {
-  0%, 100% {
-      transform: translateY(0);
+
+  0%,
+  100% {
+    transform: translateY(0);
   }
+
   50% {
-      transform: translateY(5px);
+    transform: translateY(5px);
   }
 }
