@@ -129,7 +129,6 @@ export default function Home() {
       </div>
 
       <section id="contact" className="container-contact">
-        <h2> Alejandra Garcia Sanchez</h2>
         <p>
           If you like my work or you wish to discuss further what how we can
           help each other, please feel free to contact me or explore my

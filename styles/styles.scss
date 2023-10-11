@@ -105,7 +105,10 @@
 /*Contact*/
 
 .container-contact {
-height: auto;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #383748;
   color: var(--color-primary);
   text-align: center;

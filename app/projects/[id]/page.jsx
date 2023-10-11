@@ -24,6 +24,12 @@ export default function ProjectDetails({ params }) {
     <div className="contenedor-page">
       <div className="contenedor-info">
         <h1>{project.title}</h1>
+        <div className="contenedor-foto-responsive"><Image
+          src={project.image}
+          width={2500}
+          height={500}
+          alt={project.title}
+        /></div>
         <p>{project.description}</p>
         <div>
           <p>Technologies I used:</p>
