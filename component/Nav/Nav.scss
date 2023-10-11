@@ -1,13 +1,11 @@
 .nav-bar-container {
+   height: 3rem;
     margin: 0;
     position: sticky;
     top: 0;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-start;
-    padding-right: 1.8rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    align-items: center;
     list-style: none;
     background-color: var(--color-nav);
     z-index: 100000000000;
@@ -45,3 +43,22 @@
         font-weight: bold;
     }
 }
+
+@media screen and (max-width: 936px){
+    .nav-bar-container {
+        padding-right:0 ;
+
+}}
+
+@media screen and (max-width: 660px){
+    .nav-bar-container {
+        padding-left: 5rem ;
+        width: 280px;
+       justify-content: flex-start;
+    
+       li{
+        margin-right: 0.5rem;
+       }
+    
+
+}}

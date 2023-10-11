@@ -40,7 +40,7 @@ export default function Home() {
   };
   let bubbles = ["</>", "{}", "f'{}'", "<?php"];
   return (
-    <main className="home">
+    <main>
       <section id="home" className="presentation">
         <div className="bubbles bubble1">
           <span>{bubbles[0]}</span>
@@ -111,7 +111,7 @@ export default function Home() {
             <article className="card">
               <Image
                 className="background-nohover"
-                src="/Certificates/Python-certificate.png"
+                src={certificado1}
                 width={2000}
                 height={450}
                 alt="Certificado Python"

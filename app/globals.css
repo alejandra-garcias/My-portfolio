@@ -13,7 +13,8 @@
   /* Hace que el texto sea transparente */
   font-weight: bold;
   /* Grosor de la fuente (opcional) */
-  text-align: center
+  text-align: center;
+  margin:0;
 }
 
 .gradiant-text {
@@ -75,6 +76,7 @@ body {
   box-sizing: border-box;
   background-color: var(--color-primary);
   color: var(--color-text);
+  width: 100vw;
 }
 
 h1,
@@ -97,6 +99,7 @@ span {
 }
 
 h2 {
+  margin:0;
   font-size: 2rem;
   font-family: 'M PLUS 1 Code', monospace;
 
@@ -153,10 +156,9 @@ h2 {
 /*Contenedores*/
 
 .container {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  margin-left: 0.8rem;
-  padding-right: 0.8rem;
+  margin: 0;
+  width: 100vw;
+  padding: 0;
 }
 
 .container-grisaceo {

@@ -2,11 +2,25 @@
     padding-top: 2rem;
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
+
+    
 
     .tecnologia {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        width: 100%;
     }
+}
+
+@media screen and (max-width: 936px){
+ 
+    .tecnologias{
+        display: none;
+      
+  
+    }
+  
 }

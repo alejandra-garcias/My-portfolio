@@ -86,11 +86,26 @@
 
 }
 
+
+  
+
+
+
+@media screen and (max-width: 660px){
+ 
+  .projects {
+   
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+
+}
 /*Contact*/
 
 .container-contact {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+height: auto;
   background-color: #383748;
   color: var(--color-primary);
   text-align: center;
@@ -113,7 +128,7 @@
     align-items: center;
     flex-wrap: wrap;
     color: var(--color-primary);
-    padding: 1rem;
+
 
     h3 {
       text-decoration: underline;
@@ -156,4 +171,16 @@
   50% {
     transform: translateY(5px);
   }
+}
+
+
+@media screen and (max-width: 936px){
+ 
+  .bubble1,.bubble2,.bubble3,.bubble4{
+      display: none;
+
+     
+
+  }
+
 }
