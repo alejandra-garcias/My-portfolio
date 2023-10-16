@@ -14,64 +14,64 @@
   position: relative;
 
   .bubble1 {
-    right: 12vw;
-    top: 20vh;
+	right: 12vw;
+	top: 20vh;
   }
 
   .bubble2 {
-    right: 4vw;
-    top: 60vh;
+	right: 4vw;
+	top: 60vh;
   }
 
   .bubble3 {
-    right: 35vw;
-    top: 25vh;
+	right: 35vw;
+	top: 25vh;
   }
 
   .bubble4 {
-    right: 20vw;
-    top: 40vh;
+	right: 20vw;
+	top: 40vh;
   }
 
   .bubbles {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    animation: moveUpDown 2s infinite ease;
-    user-select: none;
-    pointer-events: none;
-    -webkit-user-drag: none;
-    -moz-user-drag: none;
-    -ms-user-drag: none;
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	animation: moveUpDown 2s infinite ease;
+	user-select: none;
+	pointer-events: none;
+	-webkit-user-drag: none;
+	-moz-user-drag: none;
+	-ms-user-drag: none;
 
-    span {
-      background-image: linear-gradient(to bottom, #7928caad, #ae00a2a8, #c8007bad, #d000538e, #cb07319b);
-      -webkit-background-clip: text;
-      /* Para navegadores basados en Webkit (como Chrome y Safari) */
-      background-clip: text;
-      color: transparent;
-      /* Hace que el texto sea transparente */
-      font-weight: bold;
-      /* Grosor de la fuente (opcional) */
-      font-size: 2.5rem;
+	span {
+	  background-image: linear-gradient(to bottom, #7928caad, #ae00a2a8, #c8007bad, #d000538e, #cb07319b);
+	  -webkit-background-clip: text;
+	  /* Para navegadores basados en Webkit (como Chrome y Safari) */
+	  background-clip: text;
+	  color: transparent;
+	  /* Hace que el texto sea transparente */
+	  font-weight: bold;
+	  /* Grosor de la fuente (opcional) */
+	  font-size: 2.5rem;
 
-    }
+	}
   }
 
   h1 {
-    font-size: 4rem;
-    font-weight: bold;
-    width: 80vw;
+	font-size: 4rem;
+	font-weight: bold;
+	width: 80vw;
   }
 
   p {
-    font-size: 1.3rem;
+	font-size: 1.3rem;
 
   }
 
   article {
-    width: 60vw;
-    margin-left: 10vw;
+	width: 60vw;
+	margin-left: 10vw;
   }
 
 }
@@ -87,78 +87,83 @@
 }
 
 
-  
 
 
+@media screen and (max-width: 660px) {
 
-@media screen and (max-width: 660px){
- 
   .projects {
-   
-    display: flex;
-    flex-direction: column;
+
+	display: flex;
+	flex-direction: column;
 
   }
-  
+
 
 }
+
 /*Contact*/
 
 .container-contact {
-  height: 30vh;
+  height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   background-color: #383748;
   color: var(--color-primary);
   text-align: center;
+  align-items: center;
+  padding: 5vw;
 
   h2 {
 
-    color: var(--color-primary);
+	color: var(--color-primary);
 
   }
 
   p {
 
-    color: var(--color-primary);
+	color: var(--color-primary);
 
   }
 
   .Network {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    color: var(--color-primary);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+	color: var(--color-primary);
+	justify-content: center;
+	width: 50%;
+
+	h3 {
+	  text-decoration: underline;
+	  color: var(--color-primary);
+
+	}
+
+	li {
+	  list-style: none;
+	}
+
+	a {
+	  color: var(--color-primary);
 
 
-    h3 {
-      text-decoration: underline;
-      color: var(--color-primary);
+	}
 
-    }
-
-    li {
-      list-style: none;
-    }
-
-    a {
-      color: var(--color-primary);
-
-
-    }
-
-    .contact-details {
-      display: flex;
-      width: 18vw;
-      justify-content: space-between;
-      align-items: center;
-    }
+	.contact-details {
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  width: 10vw;
+	}
 
 
   }
 
+  button {
+	width: 30vw;
+  }
 }
 
 
@@ -168,21 +173,32 @@
 
   0%,
   100% {
-    transform: translateY(0);
+	transform: translateY(0);
   }
 
   50% {
-    transform: translateY(5px);
+	transform: translateY(5px);
   }
 }
 
 
-@media screen and (max-width: 936px){
- 
-  .bubble1,.bubble2,.bubble3,.bubble4{
-      display: none;
+@media screen and (max-width: 936px) {
 
-     
+  .bubble1, .bubble2, .bubble3, .bubble4 {
+	display: none;
+  }
+  .container-contact {
+
+	.Network {
+	  width: 100%;
+	  height: 10vh;
+
+	
+	}
+
+	button {
+	  width: 100%;
+	}
 
   }
 

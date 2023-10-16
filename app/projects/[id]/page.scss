@@ -1,85 +1,104 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@300&display=swap');
 
-button, a{
+button, a {
   cursor: pointer;
 }
 
-.contenedor-foto-responsive{
-  display: none;
-}
+
 .contenedor-page {
   display: flex;
-  margin: 2rem;
-}
+  margin: 5rem;
 
-.contenedor-info {
+  .contenedor-info {
 
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-evenly;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
 
-}
-
-.container-iconos {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: auto;
-  gap: 0.8rem;
-  border-radius: 20px;
-
-  img {
-    width: auto;
-    height: 6vh;
-
-
-  }
-}
-
-.contenedor-fotosbotones {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 50%;
-  align-items: center;
-}
-
-.contenedor-botones {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.contenedor-fotosbotones img {
-  width: 75%;
-  height: 80%;
-  object-fit: cover;
-  mix-blend-mode: luminosity;
-}
-
-@media screen and (max-width: 660px){
-  .contenedor-page {
+    .container-iconos {
       display: flex;
-      flex-direction: column;
-      margin: 0;
       align-items: center;
       justify-content: center;
-     
-  .container-iconos{
-    img{
-      height: 2vh;
+      width: auto;
+      gap: 0.8rem;
+      border-radius: 20px;
+      flex-wrap: wrap;
+
+      img {
+        width: auto;
+        height: 6vh;
+
+
+      }
+    }
+
+    .img-responsive-projects {
+      display: none;
+
     }
   }
-  .contenedor-fotosbotones img{
-    display:none
+
+  .contenedor-fotosbotones {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+
+    img {
+      width: 75%;
+      height: 80%;
+      object-fit: cover;
+      mix-blend-mode: luminosity;
+    }
+
+    .contenedor-botones {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+
+    }
   }
-.contenedor-foto-responsive {
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  width: 300px;
-  height: 200px;
 }
-}}
+
+
+
+
+@media screen and (max-width: 660px) {
+
+  .contenedor-page {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+    .contenedor-info {
+      width: 100%;
+      text-align: center;
+      align-items: center;
+
+      .img-responsive-projects {
+        display: flex;
+        width: 100%;
+        height: 30vh;
+      }
+
+      p {
+        padding: 10px;
+      }
+    }
+
+
+
+    .contenedor-fotosbotones img {
+      display: none
+    }
+
+
+  }
+}
