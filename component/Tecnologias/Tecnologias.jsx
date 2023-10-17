@@ -7,6 +7,79 @@ const Tecnologias = () => {
     <>
       <section class="container">
         <h2 className="gradiant-text-centre">Skills and Technologies </h2>
+        <div className="tech-responsive">
+          <div className="column">
+            <Image
+              src={"/skills-section/Python.svg"}
+              width={64}
+              height={64}
+              alt="Python"
+            />
+            <Image
+              src={"/skills-section/django.svg"}
+              width={64}
+              height={64}
+              alt="Django"
+            />
+            <Image
+              src={"/skills-section/mysql.svg"}
+              width={64}
+              height={64}
+              alt="MySQL"
+            />
+            <Image
+              src={"/skills-section/laravel.png"}
+              width={64}
+              height={64}
+              alt="Laravel"
+            />
+
+            <Image
+              src={"/skills-section/php.svg"}
+              width={64}
+              height={64}
+              alt="PHP"
+            />
+
+            <Image
+              src={"/skills-section/react.svg"}
+              width={64}
+              height={64}
+              alt="React"
+            />
+            <Image
+              src={"/skills-section/javascript.svg"}
+              width={64}
+              height={64}
+              alt="Javascript"
+            />
+            <Image
+              src={"/skills-section/html.svg"}
+              width={64}
+              height={64}
+              alt="HTML"
+            />
+            <Image
+              src={"/skills-section/css.svg"}
+              width={64}
+              height={64}
+              alt="Css"
+            />
+            <Image
+              src={"/skills-section/Sass.svg"}
+              width={64}
+              height={64}
+              alt="Sass"
+            />
+            <Image
+              src={"/skills-section/bootstrap.svg"}
+              width={64}
+              height={64}
+              alt="Bootstrap"
+            />
+          </div>
+        </div>
+
         <div class="tecnologias">
           <div class="tecnologia">
             <Image
@@ -90,7 +163,7 @@ const Tecnologias = () => {
             />
             <p>CSS</p>
           </div>
-          
+
           <div class="tecnologia">
             <Image
               src={"/skills-section/Sass.svg"}

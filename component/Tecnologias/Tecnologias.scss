@@ -1,5 +1,6 @@
 .tecnologias {
     padding-top: 2rem;
+    padding-bottom: 2rem;
     display: flex;
     justify-content: space-evenly;
     width: 100%;
@@ -14,13 +15,23 @@
         width: 100%;
     }
 }
+.tech-responsive{
+    display: none;
+}
 
 @media screen and (max-width: 936px){
  
     .tecnologias{
         display: none;
       
-  
+    }
+    .tech-responsive{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        
     }
   
 }
