@@ -77,6 +77,12 @@ const Tecnologias = () => {
               height={64}
               alt="Bootstrap"
             />
+              <Image
+              src={"/skills-section/Mongodb.png"}
+              width={64}
+              height={64}
+              alt="MongoDB"
+            />
           </div>
         </div>
 
@@ -181,6 +187,15 @@ const Tecnologias = () => {
               alt="Bootstrap"
             />
             <p>Bootstrap</p>
+          </div>
+          <div class="tecnologia">
+          <Image
+              src={"/skills-section/Mongodb.png"}
+              width={64}
+              height={64}
+              alt="MongoDB"
+            />
+            <p>MongoDB</p>
           </div>
         </div>
       </section>
