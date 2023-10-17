@@ -3,7 +3,9 @@
 button, a {
   cursor: pointer;
 }
-
+a{
+  text-decoration: none;
+}
 
 .contenedor-page {
   display: flex;
