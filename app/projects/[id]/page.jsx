@@ -58,9 +58,10 @@ export default function ProjectDetails({ params }) {
             <button className="button">Go to site</button>
           </a>
         </div>
-        <Link className="button" href="/#projects">
+        <Link className="button" href="#projects">
             See other projects
           </Link>
+          
       </div>
     </div>
   );
