@@ -27,7 +27,7 @@ export default function nav() {
         <li>
           <Link
             className={ScrollY >= 552 && ScrollY <= 1200 ? "active" : null}
-            href="#projects"
+            href="/#projects"
           >
             Projects
           </Link>
@@ -35,7 +35,7 @@ export default function nav() {
         <li>
           <Link
             className={ScrollY >= 1203 && ScrollY <= 1600 ? "active" : null}
-            href="#certificates"
+            href="/#certificates"
           >
             Certificates
           </Link>
@@ -43,7 +43,7 @@ export default function nav() {
         <li>
           <Link
             className={ScrollY >= 1600 && ScrollY <= 2298 ? "active" : null}
-            href="#contact"
+            href="/#contact"
           >
             Contact
           </Link>
