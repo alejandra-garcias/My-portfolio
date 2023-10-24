@@ -111,7 +111,7 @@ export default function Home() {
                         <article className="card">
                             <Image
                                 className="background-nohover"
-                                src={certificado1}
+                                src="/Certificates/Python-certificate.jpg"
                                 width={2000}
                                 height={450}
                                 alt="Certificado Python"

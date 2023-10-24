@@ -18,47 +18,47 @@
         "technologies": ["laravel","php", "sass","javascript","mysql"],
         "image": "/ProjectPictures/8.png",
         "urlGithub": "https://github.com/alejandra-garcias/Reusefy",
-        "urlSite": "https://github.com/alejandra-garcias/VinexVino"
+        "urlSite": "https://github.com/alejandra-garcias/Reusefy"
     },
     {
-        "id": "Reusefy",
-        "title": "Reusefy",
-        "tagline": "A second hand e-commerce.  ",
-        "description": "Arquitectura Modelo-Vista-Controlador en laravel",
-        "technologies": ["laravel","php", "sass","javascript","mysql"],
+        "id": "WorkinProgress",
+        "title": "WorkinProgress",
+        "tagline": "WorkinProgress.  ",
+        "description": "WorkinProgress",
+        "technologies": [],
         "image": "/ProjectPictures/6.png",
-        "urlGithub": "https://github.com/alejandra-garcias/Reusefy",
-        "urlSite": "https://github.com/alejandra-garcias/VinexVino"
+        "urlGithub": "",
+        "urlSite": " "
     },
     {
-        "id": "Reusefy",
-        "title": "Reusefy",
-        "tagline": "A second hand e-commerce.  ",
-        "description": "Arquitectura Modelo-Vista-Controlador en laravel",
-        "technologies": ["laravel","php", "sass","javascript","mysql"],
+        "id": "WorkinProgress",
+        "title": "WorkinProgress",
+        "tagline": "WorkinProgress.  ",
+        "description": "WorkinProgress",
+        "technologies": [],
         "image": "/ProjectPictures/6.png",
-        "urlGithub": "https://github.com/alejandra-garcias/Reusefy",
-        "urlSite": "https://github.com/alejandra-garcias/VinexVino"
+        "urlGithub": "",
+        "urlSite": " "
     },
     {
-        "id": "Reusefy",
-        "title": "Reusefy",
-        "tagline": "A second hand e-commerce.  ",
-        "description": "Arquitectura Modelo-Vista-Controlador en laravel",
-        "technologies": ["laravel","php", "sass","javascript","mysql"],
+        "id": "WorkinProgress",
+        "title": "WorkinProgress",
+        "tagline": "WorkinProgress.  ",
+        "description": "WorkinProgress",
+        "technologies": [],
         "image": "/ProjectPictures/6.png",
-        "urlGithub": "https://github.com/alejandra-garcias/Reusefy",
-        "urlSite": "https://github.com/alejandra-garcias/VinexVino"
+        "urlGithub": "",
+        "urlSite": " "
     },
     {
-        "id": "Reusefy",
-        "title": "Reusefy",
-        "tagline": "A second hand e-commerce.  ",
-        "description": "Arquitectura Modelo-Vista-Controlador en laravel",
-        "technologies": ["laravel","php", "sass","javascript","mysql"],
+        "id": "WorkinProgress",
+        "title": "WorkinProgress",
+        "tagline": "WorkinProgress.  ",
+        "description": "WorkinProgress",
+        "technologies": [],
         "image": "/ProjectPictures/6.png",
-        "urlGithub": "https://github.com/alejandra-garcias/Reusefy",
-        "urlSite": "https://github.com/alejandra-garcias/VinexVino"
+        "urlGithub": "",
+        "urlSite": " "
     }
    
     
