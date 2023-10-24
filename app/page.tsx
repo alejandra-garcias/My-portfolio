@@ -171,7 +171,7 @@ export default function Home() {
 
 
                 </div>
-                <button className="button2">Download my CV here</button>
+                <Link href="/Certificates/Alejandra-Garcia ES-ING.pdf"><button className="button2">Download my CV here</button></Link>
             </section>
         </main>
     );
