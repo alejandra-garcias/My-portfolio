@@ -66,7 +66,7 @@ const Tecnologias = () => {
               alt="Css"
             />
             <Image
-              src={"/skills-section/Sass.svg"}
+              src={"/skills-section/sass.svg"}
               width={64}
               height={64}
               alt="Sass"
@@ -172,7 +172,7 @@ const Tecnologias = () => {
 
           <div class="tecnologia">
             <Image
-              src={"/skills-section/Sass.svg"}
+              src={"/skills-section/sass.svg"}
               width={64}
               height={64}
               alt="Sass"
