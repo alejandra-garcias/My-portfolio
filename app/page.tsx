@@ -102,16 +102,23 @@ export default function Home() {
                         <article className="card">
                             <Image
                                 className="background-nohover"
-                                src={certificado1}
+                                src="/Certificates/Aulab.png"
                                 width={2500}
                                 height={500}
                                 alt="Certificado Aulab"
                             />
+                               <div className="contenedor">
+                                <div className="arrow">
+                                    <Link href="https://www.credential.net/aa453bd6-baf1-48e6-b2a3-06f3b2b70028#gs.7rlgw8">
+                                        <button>↗</button>
+                                    </Link>
+                                </div>
+                            </div>
                         </article>
                         <article className="card">
                             <Image
                                 className="background-nohover"
-                                src="/Certificates/Python-certificate.jpg"
+                                src="/Certificates/Python.png"
                                 width={2000}
                                 height={450}
                                 alt="Certificado Python"

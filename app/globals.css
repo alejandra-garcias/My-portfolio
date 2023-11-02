@@ -30,12 +30,12 @@
 
 /*Variables de colores utilizadas a lo largo del proyecto*/
 :root {
-  --color-primary: #ffffff;
+  --color-primary: #F8F9FA;
   /* Color primario #5A667D */
   --color-secondary: #A7B9F9;
   /* Color secundario #f6ebe1 */
   --color-text: #38383e;
-  --color-nav: rgba(255, 255, 255, 0.76);
+  --color-nav: #F8F9FA;
   --color-grisblanco: rgba(249, 249, 249, 255);
   --color-gradiant: background-image: linear-gradient(to bottom, #7928ca, #ac06ba, #d000a8, #eb0094, #ff0080);
   --color--section: #383748;
