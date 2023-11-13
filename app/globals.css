@@ -1,82 +1,56 @@
 /*Importacion de la tipografia*/
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@300&display=swap');
 
-/*Tipografia clases*/
-/*Gradiantes*/
-.gradiant-text-centre {
-
-  background-image: linear-gradient(to bottom, #7928ca, #ac06ba, #d000a8, #eb0094, #ff0080);
-  -webkit-background-clip: text;
-  /* Para navegadores basados en Webkit (como Chrome y Safari) */
-  background-clip: text;
-  color: transparent;
-  /* Hace que el texto sea transparente */
-  font-weight: bold;
-  /* Grosor de la fuente (opcional) */
-  text-align: center;
-  margin:0;
-}
-
-.gradiant-text {
-  background-image: linear-gradient(to bottom, #7928ca, #ac06ba, #d000a8, #eb0094, #ff0080);
-  -webkit-background-clip: text;
-  /* Para navegadores basados en Webkit (como Chrome y Safari) */
-  background-clip: text;
-  color: transparent;
-  /* Hace que el texto sea transparente */
-  font-weight: bold;
-}
-
-
-/*Variables de colores utilizadas a lo largo del proyecto*/
 :root {
-  --color-primary: #F8F9FA;
-  /* Color primario #5A667D */
-  --color-secondary: #A7B9F9;
-  /* Color secundario #f6ebe1 */
-  --color-text: #38383e;
-  --color-nav: #F8F9FA;
-  --color-grisblanco: rgba(249, 249, 249, 255);
-  --color-gradiant: background-image: linear-gradient(to bottom, #7928ca, #ac06ba, #d000a8, #eb0094, #ff0080);
-  --color--section: #383748;
-
+    --color-primary: #F8F9FA;
+    --color-secondary: #75bcc9;
+    --color-text: rgb(35, 35, 37);
+    --color-nav: rgb(248, 249, 250);
+    --color-grisblanco: rgba(249, 249, 249, 255);
+    --color-gradiant: linear-gradient(180deg,#7928ca,#ac06ba,#d000a8,#eb0094,#ff0080);
 
 }
 
-/*Color del selector*/
+
+
+
 ::selection {
-  background-color: var(--color--section);
-  color: #FFFFFF;
+    background-color: var(--color-text);
+    color: #232325;
 
 }
 
-/*Ajustes globales de proyecto*/
 body::-webkit-scrollbar {
-  display: none !important;
+    display: none !important;
 }
 
-/* IE y Edge */
 body {
-  -ms-overflow-style: none !important;
+    -ms-overflow-style: none !important;
 
 }
 
-/* Firefox */
 body {
-  scrollbar-width: none !important;
+    scrollbar-width: none !important;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  background-color: var(--color-primary);
-  color: var(--color-text);
-  width: 100vw;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    width: 100vw;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 h1,
@@ -87,81 +61,31 @@ h6,
 p,
 a,
 span {
-
-
-  font-weight: normal;
-  font-style: normal;
-  padding: 0;
-  margin: 0;
-  color: var(--color-text);
-  font-family: 'M PLUS 1 Code', monospace;
+    font-weight: normal;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    color: var(--color-text);
+    font-family: 'M PLUS 1 Code', monospace;
 
 }
 
 h2 {
-  margin:0;
-  font-size: 2rem;
-  font-family: 'M PLUS 1 Code', monospace;
+    margin: 0;
+    font-size: 2rem;
+    font-family: 'M PLUS 1 Code', monospace;
 
 }
 
-/*Botones*/
-.button {
-  font-size: 1rem;
-  -webkit-transition-duration: 0.4s;
-  /* Safari */
-  transition-duration: 0.4s;
-  font-family: 'M PLUS 1 Code', monospace;
-  color: var(--color-primary);
-  background-color: #3c3c48c4;
-  border: 2px solid var(--color-primary);
-  float: left;
-  border-radius: 12px;
-  font-weight: bold;
-  background-color: var(--color-primary);
-  color: #383748;
-  border: 2px solid #383748;
-  padding: 0.2rem;
-
-}
-
-.button:hover {
-  color: var(--color-primary);
-  background-color: #3c3c48c4;
-  border: 2px solid #383748;
-}
-
-.button2 {
-  margin-top: 3px;
-  font-size: 1rem;
-  -webkit-transition-duration: 0.4s;
-  /* Safari */
-  transition-duration: 0.4s;
-  font-family: 'M PLUS 1 Code', monospace;
-  color: var(--color-primary);
-  background-color: #3c3c48;
-  border: 2px solid var(--color-primary);
-  float: left;
-  border-radius: 12px;
-  font-weight: bold;
-
-
-}
-
-.button2:hover {
-  color: #3c3c48c4;
-  background-color: var(--color-primary);
-  border: 2px solid #383748;
-}
 
 /*Contenedores*/
 
 .container {
-  margin: 0;
-  width: 100vw;
-  padding: 0;
+    margin: 0;
+    width: 100vw;
+    padding: 0;
 }
 
 .container-grisaceo {
-  background-color: var(--color-grisblanco);
+    background-color: var(--color-grisblanco);
 }

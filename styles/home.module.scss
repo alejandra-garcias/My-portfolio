@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import 'home/presentation.module.scss';
+@import 'home/technologies.module.scss';
+@import 'home/projects.module.scss';
+@import 'home/certificates.module.scss';
+@import 'home/contact.module.scss';
+@import 'home/footer.module.scss';
+
+.section {
+  display: flex;
+  justify-content: center;
+  min-height: 90vh;
+  flex-direction: column;
+  width: 90%;
+  margin: 3vh 0;
+
+  .title {
+	margin-bottom: 5vh;
+	background-image: var(--color-gradiant);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	font-size: 3rem;
+  }
+}
+
+
+
+@media screen and (max-width: 660px) {
+
+  .section {
+	min-height: auto;
+
+  }
+
+  .technologies {
+
+	.title {
+	  text-align: center;
+	  margin-left: 0;
+	}
+
+	.sectionContentContainer {
+	  flex-direction: column;
+	  margin-left: 0;
+	  align-items: center;
+	  justify-content: center;
+
+	  .sectionContent {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+	  }
+
+	  .explication {
+		display: none;
+	  }
+	}
+  }
+
+  .certificates {
+
+	.title {
+	  text-align: center;
+	  width: 100%;
+	  margin-left: 0;
+	}
+
+	.sectionContentContainer {
+	  flex-direction: column;
+	  margin-left: 0;
+	  align-items: center;
+	  justify-content: center;
+	  width: 100%;
+
+	  .sectionContent {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+	  }
+
+	  .explication {
+		display: none;
+	  }
+	}
+  }
+
+  .projects {
+
+	display: flex;
+	flex-direction: column;
+
+  }
+
+
+}

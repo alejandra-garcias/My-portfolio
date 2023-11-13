@@ -1,0 +1,106 @@
+
+.presentation {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+
+  .presentationTitle {
+
+	.black{
+		color: var(--text);
+	}
+
+	span {
+	  background-image: var(--color-gradiant);
+	  -webkit-background-clip: text;
+	  background-clip: text;
+	  color: transparent;
+	  font-weight: bold;
+	  font-size: 4.5rem;
+	}
+  }
+
+  .bubbles {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	animation: moveUpDown 2s infinite ease;
+	user-select: none;
+	pointer-events: none;
+
+	span {
+	  background-image: var(--color-gradiant);
+	  -webkit-background-clip: text;
+	  background-clip: text;
+	  color: transparent;
+	  font-weight: bold;
+	  font-size: 2.5rem;
+	}
+  }
+
+  .bubble1 {
+	right: 12vw;
+	top: 20vh;
+  }
+
+  .bubble2 {
+	right: 4vw;
+	top: 60vh;
+  }
+
+  .bubble3 {
+	right: 35vw;
+	top: 25vh;
+  }
+
+  .bubble4 {
+	right: 20vw;
+	top: 40vh;
+  }
+
+
+
+  article {
+	width: 60vw;
+	margin-left: 10vw;
+
+	h1 {
+	  font-size: 4rem;
+	  font-weight: bold;
+	  width: 80vw;
+
+	}
+
+	p {
+	  font-size: 1.3rem;
+
+	}
+  }
+
+
+
+}
+
+@keyframes moveUpDown {
+
+  0%,
+  100% {
+	transform: translateY(0);
+  }
+
+  50% {
+	transform: translateY(5px);
+  }
+}
+
+
+@media screen and (max-width: 936px) {
+
+  .bubble1, .bubble2, .bubble3, .bubble4 {
+	display: none;
+  }
+
+}

@@ -1,0 +1,52 @@
+
+.contact {
+  align-items: center;
+
+  .titleContact {
+	font-size: 5rem;
+	color: white;
+	font-family: 'Bebas Neue', sans-serif;
+  }
+
+  article {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80vw;
+	height: 60vh;
+	border-radius: 20px;
+	background-color: #7928ca;
+	padding: 10px;
+	animation: backgroundAnimation 1s infinite linear;
+	box-shadow: 0px 0px 20px 10px rgba(14, 14, 14, 0.2);
+	background-image: linear-gradient(185deg, #7928ca 0%, #ac06ba 29%, #ff0080 53%, #d000a8 73%, #eb0094 98%);
+
+	.sectionContentContainer {
+	  width: 100%;
+
+	  .sectionContent {
+		width: 50%;
+	  }
+	}
+  }
+
+  p {
+	color: var(--color-primary);
+  }
+}
+
+
+
+@media screen and (max-width: 936px) {
+
+  .contact {
+	.titleContact {
+	  font-size: 2.5rem;
+
+	}
+
+	article {
+	  height: 30vh;
+	}
+  }
+}

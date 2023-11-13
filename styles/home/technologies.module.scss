@@ -1,0 +1,29 @@
+
+.technologies {
+  flex-direction: column;
+
+
+  .title {
+
+  }
+
+  .sectionContentContainer {
+	display: flex;
+
+	.sectionContent {
+	  height: 100%;
+	  width: 50%;
+
+	  p {
+		color: var(--color-text);
+	  }
+	}
+
+	.explication {
+
+	  p {
+		font-size: 1.8rem;
+	  }
+	}
+  }
+}

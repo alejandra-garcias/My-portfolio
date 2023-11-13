@@ -1,5 +1,46 @@
 [
     {
+        "id": "Scrumly",
+        "title": "Scrumly",
+        "tagline": "A cutting-edge software solution designed to seamlessly implement agile methodologies in the workplace, fostering efficient and collaborative workflows.",
+        "description": "Scrumly is a framework where registered users can access a task list to perform all CRUD functionalities (Create, Read, Update, Delete). Scrumly also features a real-time chat for user communication, a chatbot for live assistance (which generates responses through the OpenAI API), and an announcement board where page/team administrators can post updates and announcements.",
+        "technologies": ["python","django","sass","javascript","html"],
+        "image": "/ProjectPictures/Scrumly.png",
+        "urlGithub": "https://github.com/alejandra-garcias/Scrumly",
+        "urlSite": "https://github.com/alejandra-garcias/VinexVino"
+        
+    },
+    {
+        "id": "API REST for an e-ccomerce",
+        "title": "API REST",
+        "tagline": "Backend for e-commerce.  ",
+        "description": "E-commerce API designed to provide seamless integration for online shopping platforms. It offers a robust set of functionalities, including product catalog management, secure payment processing, order fulfillment, and user account management. The API is crafted to be scalable, ensuring optimal performance even during peak traffic periods. With comprehensive documentation and support for industry-standard security protocols, our e-commerce API facilitates the development of feature-rich and secure online shopping experiences for businesses of all sizes",
+        "technologies": ["django","python"],
+        "image": "/ProjectPictures/6.png",
+        "urlGithub": "https://github.com/alejandra-garcias/Reusefy",
+        "urlSite": "https://github.com/alejandra-garcias/Reusefy"
+    },
+    {
+        "id": "Infotour360",
+        "title": "Infotour360",
+        "tagline": "Portfolio for photography company.  ",
+        "description": "WorkinProgress",
+        "technologies": ["html","javascript","bootstrap","css"],
+        "image": "/ProjectPictures/Infotour.png",
+        "urlGithub": "",
+        "urlSite": "https://infotour360.es/"
+    },
+    {
+        "id": "Oju-Producciones",
+        "title": "Oju-Producciones",
+        "tagline": "Web for a spanish film production company  ",
+        "description": "WorkinProgress",
+        "technologies": ["html","css","react","javascript"],
+        "image": "/ProjectPictures/6.png",
+        "urlGithub": "",
+        "urlSite": " "
+    },
+    {
         "id": "VinexVino",
         "title": "VinexVino",
         "tagline": "My inaugural full-stack endeavor: an online wine repository seamlessly integrated with MySQL",
@@ -19,47 +60,9 @@
         "image": "/ProjectPictures/8.png",
         "urlGithub": "https://github.com/alejandra-garcias/Reusefy",
         "urlSite": "https://github.com/alejandra-garcias/Reusefy"
-    },
-    {
-        "id": "WorkinProgress",
-        "title": "WorkinProgress",
-        "tagline": "WorkinProgress.  ",
-        "description": "WorkinProgress",
-        "technologies": [],
-        "image": "/ProjectPictures/6.png",
-        "urlGithub": "",
-        "urlSite": " "
-    },
-    {
-        "id": "WorkinProgress",
-        "title": "WorkinProgress",
-        "tagline": "WorkinProgress.  ",
-        "description": "WorkinProgress",
-        "technologies": [],
-        "image": "/ProjectPictures/6.png",
-        "urlGithub": "",
-        "urlSite": " "
-    },
-    {
-        "id": "WorkinProgress",
-        "title": "WorkinProgress",
-        "tagline": "WorkinProgress.  ",
-        "description": "WorkinProgress",
-        "technologies": [],
-        "image": "/ProjectPictures/6.png",
-        "urlGithub": "",
-        "urlSite": " "
-    },
-    {
-        "id": "WorkinProgress",
-        "title": "WorkinProgress",
-        "tagline": "WorkinProgress.  ",
-        "description": "WorkinProgress",
-        "technologies": [],
-        "image": "/ProjectPictures/6.png",
-        "urlGithub": "",
-        "urlSite": " "
     }
+    
+    
    
     
 ]

@@ -1,67 +1,67 @@
 .nav-bar-container {
-    height: 3rem;
-    margin: 0;
-    width: 100vw;
-    position: sticky;
-    top: 0;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    list-style: none;
-    background-color: var(--color-nav);
-    z-index: 100000000000;
-  
-    li {
-      margin-right: 1rem;
-      text-decoration: none;
-      transition: all 0.2s ease;
-    }
-  
-    a {
-      text-decoration: none;
-      transition: all 0.2s ease;
-    }
-  
-    a:hover {
-      padding-bottom: 4px;
-      border-bottom: 2px solid #ec57ac;
-      background-image: linear-gradient(to bottom, #7928ca, #ae00a3, #c8007a, #d00054, #cb0732);
-      -webkit-background-clip: text;
-      background-clip: text;
-      color: transparent;
-      /* Hace que el texto sea transparente */
-      font-weight: bold;
-      /* Grosor de la fuente */
-    }
-  
-    .active {
-      padding-bottom: 4px;
-      border-bottom: 2px solid #ec57ac;
-      background-image: linear-gradient(to bottom, #7928ca, #ae00a3, #c8007a, #d00054, #cb0732);
-      -webkit-background-clip: text;
-      background-clip: text;
-      color: transparent;
-      font-weight: bold;
-    }
+  height: 3rem;
+  margin: 0;
+  width: 100vw;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  background-color: var(--color-nav);
+  z-index: 100000000000;
+
+  li {
+	margin-right: 1rem;
+	text-decoration: none;
+	transition: all 0.2s ease;
   }
-  
-  @media screen and (max-width: 936px) {
-    .nav-bar-container {
-      padding-right: 0;
-  
-    }
+
+  a {
+	text-decoration: none;
+	transition: all 0.2s ease;
   }
-  
-  @media screen and (max-width: 660px) {
-    .nav-bar-container {
-      width: 100%;
-      align-items: center;
-      justify-content: center;
-  
-      li {
-        margin-right: 0.5rem;
-      }
-  
-  
-    }
+
+  a:hover {
+	padding-bottom: 4px;
+	border-bottom: 2px solid #eb0094;
+	background-image: var(--color-gradiant);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	/* Hace que el texto sea transparente */
+	font-weight: bold;
+	/* Grosor de la fuente */
   }
+
+  .active {
+	padding-bottom: 4px;
+	border-bottom: 2px solid #eb0094;
+	background-image: var(--color-gradiant);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 936px) {
+  .nav-bar-container {
+	padding-right: 0;
+
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .nav-bar-container {
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+
+	li {
+	  margin-right: 0.5rem;
+	}
+
+
+  }
+}

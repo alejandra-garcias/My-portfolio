@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@300&display=swap');
+
+
+.container {
+  display: flex;
+  margin: 2.5rem;
+
+  article {
+	width: 50%;
+	height: 45vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	h1 {
+	  font-size: 2rem;
+	  font-weight: bold;
+	}
+
+	h2 {
+	  font-size: 1.5rem;
+	}
+
+	.imgResponsiveProjects {
+	  display: none;
+	}
+
+	.img {
+	  width: 100%;
+	}
+
+	.containerTitle {
+	  height: 100%;
+
+	  p {
+		margin-top: 10px;
+
+	  }
+	}
+
+	.containerIcons {
+	  div {
+		margin-top: 10px;
+		display: flex;
+		width: 60%;
+		justify-content: space-between;
+
+		img {
+		  width: 35px;
+		  height: 35px;
+		}
+	  }
+
+	}
+
+	.containerBtns {
+	  display: flex;
+	  flex-direction: column;
+
+	  .btns {
+		display: flex;
+		justify-content: space-between;
+		width: 50%;
+
+		button {
+		  border: none;
+		  width: 10vw;
+		  height: 5vh;
+		  cursor: pointer;
+		  border-radius: 5px;
+		  background: var(--color-text);
+
+		  p {
+			font-family: 'Bebas Neue', sans-serif;
+			transition: 0.1s all ease;
+			color: white;
+		  }
+		}
+	  }
+
+
+	}
+
+  }
+}
+
+.containerBack {
+  display: flex;
+  margin: 2.5rem;
+  justify-content: space-between;
+
+  .containerRoles {
+	display: flex;
+	justify-content: space-between;
+	width: 60%;
+
+	div {
+	  margin-top: 10px;
+	  width: 45%;
+
+	  p {
+		margin-top: 10px;
+
+	  }
+	}
+  }
+
+  .containerLinks {
+	width: 40%;
+
+	div {
+	  margin-top: 10px;
+	}
+
+	.btns {
+	  display: flex;
+	  width: 60%;
+	  justify-content: space-between;
+
+	  a {
+		width: 10vw;
+		height: 5vh;
+		background: var(--color-text);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 5px;
+
+		p {
+		  color: white;
+		}
+	  }
+	}
+  }
+}
+
+
+
+@media screen and (max-width: 660px) {
+  .container {
+	flex-direction: column;
+
+	article {
+	  align-items: center;
+	  width: 100%;
+	  height: 100%;
+
+	  h1 {
+		text-align: center;
+		font-size: 3.5rem;
+	  }
+
+	  .containerIcons {
+		h2 {
+		  text-align: center;
+		}
+
+		div {
+		  margin-top: 10px;
+		  display: flex;
+		  width: 100%;
+		  justify-content: space-between;
+
+		  img {
+			width: 55px;
+			height: 55px;
+		  }
+		}
+	  }
+
+	  .imgResponsiveProjects {
+		display: flex;
+		width: 100%;
+		height: 30vh;
+	  }
+
+	  .img {
+		display: none;
+		width: 100%;
+	  }
+	}
+
+
+
+  }
+  .containerBack {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin: 0;
+
+	.containerRoles, .containerLinks {
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  justify-content: center;
+	  width: 100%;
+
+	  div {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	  }
+
+	  .btns {
+		a {
+		  width: 100%;
+		}
+	  }
+	}
+  }
+}
