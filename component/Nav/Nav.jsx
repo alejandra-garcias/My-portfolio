@@ -11,6 +11,7 @@ export default function nav() {
   const handleScroll = () => {
     let position = window.scrollY;
     setScrollY(position);
+    console.log(position)
 
   };
  
@@ -22,13 +23,13 @@ export default function nav() {
       <div className="nav-bar-container">
        
         <li>
-          <Link className={ScrollY < 552 ? "active" : null} href="/">
+          <Link className={ScrollY < 560 ? "active" : null} href="/">
             Home
           </Link>
         </li>
         <li>
           <Link
-            className={ScrollY >= 552 && ScrollY <= 1700 ? "active" : null}
+            className={ScrollY >= 560 && ScrollY <= 1700 ? "active" : null}
             href="/#projects"
           >
             Projects
@@ -36,7 +37,7 @@ export default function nav() {
         </li>
         <li>
           <Link
-            className={ScrollY >= 1710 && ScrollY <= 2300 ? "active" : null}
+            className={ScrollY >= 1360 && ScrollY <= 1906 ? "active" : null}
             href="/#certificates"
           >
             Certificates
@@ -44,7 +45,7 @@ export default function nav() {
         </li>
         <li>
           <Link
-            className={ScrollY >= 2300 && ScrollY <= 2700 ? "active" : null}
+            className={ScrollY >= 1906 && ScrollY <= 2700 ? "active" : null}
             href="/#contact"
           >
             Contact
