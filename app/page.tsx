@@ -6,8 +6,10 @@ import projectsJson from "../projects.json";
 import Card from "../component/Card/Card";
 import Tecnologias from "@/component/Tecnologias/Tecnologias";
 import Certificates from "@/component/Certificates/Certificates";
+import Form from "@/component/Form/Form";
 import Link from "next/link";
 import Image from "next/image";
+
 
 
 
@@ -41,6 +43,12 @@ export default function Home() {
     setScrollY(position);
   };
   let bubbles = ["</>", "{}", "f'{}'", "<?php"];
+
+  // Logica formulario de contactos
+  
+
+  
+
   return (
     <>
       <main>
@@ -173,14 +181,11 @@ export default function Home() {
                   </a>
                 </section>
               </div>
-              <form action="/send_email" method="POST">
-                <input type="hidden" name="emailto" id="emailto" value={"alejandra.garsanchez@gmail.com"} />
-                <input  name="name" id="name" type="text" placeholder="Nombre" required/>
-                <input name="email" id="email"  type="email" placeholder="Email" required/>
-                <textarea name="message" id="message"required></textarea>
-                <button type="submit" value={"send"}>Enviame!</button>
+              
+            </div>
 
-              </form>
+            <div>
+              <Form/>
             </div>
 
             <div className={styles.footerItem}>
@@ -197,8 +202,14 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.copyright}>
-          <a className= {styles.icon}href="#home"><img src="/img/goup.png" alt="" /></a>
           <p>Copyright © 2023 Alejandra.</p>
+          <a href="#home">
+          <Image
+                      src="/img/goup.svg"
+                      width={40}
+                      height={40}
+                      alt="goup-icon"
+                    /></a>
             
           </div>
         </footer>
