@@ -19,7 +19,15 @@ export default function Home() {
   const [projects, setProjects] = useState(projectsJson);
   const [ScrollY, setScrollY] = useState(0);
 
+  useEffect(() => {
+    setTimeout(() => {
+      switchTitle();
+    }, 3500);
+  }, [statePresentation]);
 
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+  }, []);
 
   const switchTitle = () => {
     if (statePresentation === true) {
@@ -36,17 +44,7 @@ export default function Home() {
   };
   let bubbles = ["</>", "{}", "f'{}'", "<?php"];
 
-  useEffect(() => {
-    setTimeout(() => {
-      switchTitle();
-    }, 3500);
-  }, [statePresentation,switchTitle]);
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-  }, []);
-
-
+  // Logica formulario de contactos
   
 
   
@@ -101,7 +99,7 @@ export default function Home() {
           <div className={styles.sectionContentContainer}>
             <div className={`${styles.sectionContent} ${styles.explication}`}>
               <p>
-                I'm a Python specialist with a robust focus on development,
+                I am a Python specialist with a robust focus on development,
                 particularly excelling in agile methodologies, specifically
                 Scrum. Additionally, I possess a knack for seamlessly adapting
                 to various programming languages.
