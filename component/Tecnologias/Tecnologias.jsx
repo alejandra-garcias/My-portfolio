@@ -14,7 +14,7 @@ const Tecnologias = () => {
                 />
                 <p>Python</p>
             </div>
-            <div class="tecnologia">
+            <div className="tecnologia">
                 <Image
                     src={"/skills-section/django.svg"}
                     width={64}
@@ -24,7 +24,7 @@ const Tecnologias = () => {
                 <p>Django</p>
             </div>
 
-            <div class="tecnologia">
+            <div className="tecnologia">
                 <Image
                     src={"/skills-section/mysql.svg"}
                     width={64}
@@ -33,7 +33,7 @@ const Tecnologias = () => {
                 />
                 <p>MySQL</p>
             </div>
-            <div class="tecnologia">
+            <div className="tecnologia">
                 <Image
                     src={"/skills-section/laravel.png"}
                     width={64}
@@ -42,7 +42,7 @@ const Tecnologias = () => {
                 />
                 <p>Laravel</p>
             </div>
-            <div class="tecnologia">
+            <div className="tecnologia">
                 <Image
                     src={"/skills-section/php.svg"}
                     width={64}
@@ -51,7 +51,7 @@ const Tecnologias = () => {
                 />
                 <p>PHP</p>
             </div>
-            <div class="tecnologia">
+            <div className="tecnologia">
                 <Image
                     src={"/skills-section/react.svg"}
                     width={64}
@@ -60,7 +60,7 @@ const Tecnologias = () => {
                 />
                 <p>React</p>
             </div>
-            <div class="tecnologia">
+            <div className="tecnologia">
                 <Image
                     src={"/skills-section/javascript.svg"}
                     width={64}
@@ -69,7 +69,7 @@ const Tecnologias = () => {
                 />
                 <p>Javascript</p>
             </div>
-            <div class="tecnologia">
+            <div className="tecnologia">
                 <Image
                     src={"/skills-section/html.svg"}
                     width={64}
@@ -78,7 +78,7 @@ const Tecnologias = () => {
                 />
                 <p>HTML</p>
             </div>
-            <div class="tecnologia">
+            <div className="tecnologia">
                 <Image
                     src={"/skills-section/css.svg"}
                     width={64}
@@ -88,7 +88,7 @@ const Tecnologias = () => {
                 <p>CSS</p>
             </div>
 
-            <div class="tecnologia">
+            <div className="tecnologia">
                 <Image
                     src={"/skills-section/sass.svg"}
                     width={64}
@@ -97,7 +97,7 @@ const Tecnologias = () => {
                 />
                 <p>Sass</p>
             </div>
-            <div class="tecnologia">
+            <div className="tecnologia">
                 <Image
                     src={"/skills-section/bootstrap.svg"}
                     width={64}
@@ -106,7 +106,7 @@ const Tecnologias = () => {
                 />
                 <p>Bootstrap</p>
             </div>
-            <div class="tecnologia">
+            <div className="tecnologia">
                 <Image
                     src={"/skills-section/Mongodb.png"}
                     width={64}
