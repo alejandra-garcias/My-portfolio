@@ -40,7 +40,7 @@ export default function Home() {
     setTimeout(() => {
       switchTitle();
     }, 3500);
-  }, [statePresentation]);
+  }, [statePresentation,switchTitle]);
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
