@@ -1,7 +1,7 @@
 "use client";
 import "../component/Card/styles.css";
 import styles from "../styles/home.module.scss";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import projectsJson from "../projects.json";
 import Card from "../component/Card/Card";
 import Tecnologias from "@/component/Tecnologias/Tecnologias";
@@ -13,36 +13,37 @@ import Image from "next/image";
 
 
 
+
 export default function Home() {
   const [presentation, setPresentation] = useState("My name is Alejandra");
   const [statePresentation, setStatePresentation] = useState(true);
   const [projects, setProjects] = useState(projectsJson);
   const [ScrollY, setScrollY] = useState(0);
 
-  useEffect(() => {
-    setTimeout(() => {
-      switchTitle();
-    }, 3500);
-  }, [statePresentation]);
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-  }, []);
-
-  const switchTitle = () => {
-    if (statePresentation === true) {
-      setStatePresentation(false);
-      setPresentation("My name is Alejandra");
+  const switchTitle = useCallback(() => {
+    if (statePresentation) {
+        setStatePresentation(false);
+        setPresentation("My name is Alejandra");
     } else {
-      setStatePresentation(true);
-      setPresentation("I am full-stack developer");
+        setStatePresentation(true);
+        setPresentation("I am full-stack developer");
     }
-  };
-  const handleScroll = () => {
+}, [statePresentation]);
+const handleScroll = () => {
     let position = window.scrollY;
     setScrollY(position);
-  };
-  let bubbles = ["</>", "{}", "f'{}'", "<?php"];
+};
+let bubbles = ["</>", "{}", "f'{}'", "<?php"];
+
+useEffect(() => {
+    setTimeout(() => {
+        switchTitle();
+    }, 3500);
+}, [switchTitle]);
+
+useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+}, []);
 
   // Logica formulario de contactos
   
