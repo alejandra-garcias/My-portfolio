@@ -19,15 +19,7 @@ export default function Home() {
   const [projects, setProjects] = useState(projectsJson);
   const [ScrollY, setScrollY] = useState(0);
 
-  useEffect(() => {
-    setTimeout(() => {
-      switchTitle();
-    }, 3500);
-  }, [statePresentation]);
 
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-  }, []);
 
   const switchTitle = () => {
     if (statePresentation === true) {
@@ -44,7 +36,17 @@ export default function Home() {
   };
   let bubbles = ["</>", "{}", "f'{}'", "<?php"];
 
-  // Logica formulario de contactos
+  useEffect(() => {
+    setTimeout(() => {
+      switchTitle();
+    }, 3500);
+  }, [statePresentation]);
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+  }, []);
+
+
   
 
   
