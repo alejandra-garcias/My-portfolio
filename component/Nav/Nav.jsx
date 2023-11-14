@@ -11,7 +11,7 @@ export default function nav() {
   const handleScroll = () => {
     let position = window.scrollY;
     setScrollY(position);
-    console.log(position)
+    //console.log(position)
 
   };
  
