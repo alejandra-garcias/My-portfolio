@@ -23,6 +23,14 @@
 	color: transparent;
 	font-size: 3rem;
   }
+  .gradianttext{
+	background-image: var(--color-gradiant);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	font-weight: bold;
+  }
+ 
 }
 
 

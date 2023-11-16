@@ -103,8 +103,11 @@ useEffect(() => {
                 I am a Python specialist with a robust focus on development,
                 particularly excelling in agile methodologies, specifically
                 Scrum. Additionally, I possess a knack for seamlessly adapting
-                to various programming languages.
+                to various programming languages. 
               </p>
+              <br />
+              <br />
+              <p>My English level is a <span className={styles.gradianttext}> C1 </span>certified by <span className={styles.gradianttext}>Cambridge English</span></p>
             </div>
 
             <div className={styles.sectionContent}>
