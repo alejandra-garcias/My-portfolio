@@ -7,7 +7,7 @@
         "technologies": ["python","django","sass","javascript","html"],
         "image": "/ProjectPictures/Scrumly.png",
         "urlGithub": "https://github.com/alejandra-garcias/Scrumly",
-        "urlSite": "https://github.com/alejandra-garcias/VinexVino"
+        "urlSite": "https://scrumly.vercel.app/"
         
     },
     {
