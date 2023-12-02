@@ -22,6 +22,17 @@
     },
     
     {
+        "id": "Enchanting-bids",
+        "title": "Enchanting-bids",
+        "tagline": " A Harry potter inspired auction site.",
+        "description": "Currency exchange, product upload, comment section, wishlist, posibility to make bids and close bid (if you happen to be the owner of that bid)",
+        "technologies": ["html","css","python","javascript","django"],
+        "image": "/ProjectPictures/Enchantingbids.png",
+        "urlGithub": "",
+        "urlSite": "https://enchanting-bids.vercel.app/"
+    },
+    
+    {
         "id": "VinexVino",
         "title": "VinexVino",
         "tagline": "My inaugural full-stack endeavor: an online wine repository seamlessly integrated with MySQL",
@@ -51,16 +62,6 @@
         "image": "/ProjectPictures/6.png",
         "urlGithub": "",
         "urlSite": ""
-    },
-    {
-        "id": "Oju-Producciones",
-        "title": "Oju-Producciones",
-        "tagline": "Web for a spanish film production company  ",
-        "description": "WorkinProgress",
-        "technologies": ["html","css","react","javascript"],
-        "image": "/ProjectPictures/6.png",
-        "urlGithub": "",
-        "urlSite": " "
     }
     
     
